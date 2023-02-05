@@ -1,6 +1,6 @@
-import dash
+#import dash
 from dash import html, dcc, callback, Input, Output
-#from dash import Dash
+from dash import Dash
 #import dash_html_components as html
 #import dash_core_components as dcc
 #from dash.dependencies import Input, Output
@@ -11,15 +11,18 @@ import pymongo                                                  # pip install "p
 from bson.objectid import ObjectId
 import dash_bootstrap_components as dbc
 
-client = pymongo.MongoClient(
-    "mongodb+srv://anaqui:wild2023@cluster0.hthr1sz.mongodb.net/test")
+client = pymongo.MongoClient("mongodb+srv://anaqui:wild2023@cluster0.hthr1sz.mongodb.net/?retryWrites=true&w=majority")
+
+#client = pymongo.MongoClient(
+ #   "mongodb+srv://anaqui:wild2023@cluster0.hthr1sz.mongodb.net/test")
+
 
 # Go into the database I created
 db = client["final_project"]
 # Go into one of my database's collection (table)
 collection = db["users"]
-
-app = Dash(__name__, use_pages=True, external_stylesheets=[dbc.themes.MINTY])
+print(collection)
+app = Dash(__name__, external_stylesheets=[dbc.themes.MINTY])
 
 app.layout = html.Div([
     html.H1('Web Application connected to a Live Database', style={'textAlign': 'center'}),
