@@ -9,46 +9,43 @@ from plotly.subplots import make_subplots
 
 dash.register_page(__name__, path='/')
 
-#df_states = pd.read_csv('https://raw.githubusercontent.com/anacmqui/Project6--Stocks/main/state_result.csv?token=GHSAT0AAAAAABYV7NAVVA4SEI6NHVRWM3JEY7BEFOA')
+df_states = pd.read_csv('https://raw.githubusercontent.com/anacmqui/Project6--Stocks/main/state_result.csv?token=GHSAT0AAAAAABYV7NAVVA4SEI6NHVRWM3JEY7BEFOA')
 
-#def us_map(df=df_states):
- #   fig = go.Figure(data=go.Scattergeo(
-  #      locationmode = 'USA-states',
-   #     lon = df_states['Longitude'],
-    #    lat = df_states['Latitude'],
-     #   hovertext = df_states[['Headquarters', 'Name']],
+def us_map(df=df_states):
+    fig = go.Figure(data=go.Scattergeo(
+        locationmode = 'USA-states',
+        lon = df_states['Longitude'],
+        lat = df_states['Latitude'],
+        hovertext = df_states[['Headquarters', 'Name']],
         #mode = 'markers',
-      #  marker = dict(
-       #     size = df_states['Name'],
-        #    opacity = 0.8,
-         #   reversescale = True,
-          #  autocolorscale = False,
-           # symbol = 'circle',
-            #line = dict(
-             #   width=1,
-              #  color='rgba(102, 102, 102)'
-            #),
-        #)))
-    #fig.update_layout(
+        marker = dict(
+            size = df_states['Name'],
+            opacity = 0.8,
+            reversescale = True,
+            autocolorscale = False,
+            symbol = 'circle',
+            line = dict(
+                width=1,
+                color='rgba(102, 102, 102)'
+            ),
+        )))
+    fig.update_layout(
         #title = 'Most trafficked US airports<br>(Hover for airport names)',
-     #   geo = dict(
-      #      scope='usa',
-       #     projection_type='albers usa',
-        #    showland = True,
-         #   landcolor = "#B0B0B0",
-          #  subunitcolor = "rgb(217, 217, 217)",
-           # countrycolor = "rgb(217, 217, 217)",
-            #countrywidth = 0.5,
-            #subunitwidth = 0.5
-        #),
-    #)
-    #return fig
+        geo = dict(
+            scope='usa',
+            projection_type='albers usa',
+            showland = True,
+            landcolor = "#B0B0B0",
+            subunitcolor = "rgb(217, 217, 217)",
+            countrycolor = "rgb(217, 217, 217)",
+            countrywidth = 0.5,
+            subunitwidth = 0.5
+        ),
+    )
+    return fig
 
 
-
-layout = html.Div(children=[])
-
-layout  =  html.Div(children=[
+layout  =  html.Div([
             dbc.Row(children = [
                     html.H1(
                      children = ['S&P 500 Stock Market Overview'], style={'textAlign':'center', "padding": "2rem 1rem", 'color':'#8B1A1A'}
