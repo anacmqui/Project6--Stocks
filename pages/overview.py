@@ -9,7 +9,7 @@ from plotly.subplots import make_subplots
 
 dash.register_page(__name__, path='/')
 
-df_states = pd.read_csv('https://raw.githubusercontent.com/anacmqui/Project6--Stocks/main/state_result.csv?token=GHSAT0AAAAAABYV7NAVVA4SEI6NHVRWM3JEY7BEFOA')
+df_states = pd.read_csv('https://raw.githubusercontent.com/anacmqui/Project6--Stocks/main/state_result.csv')
 
 def us_map(df=df_states):
     fig = go.Figure(data=go.Scattergeo(
