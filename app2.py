@@ -7,12 +7,12 @@ app = Dash(__name__, use_pages=True, external_stylesheets=[dbc.themes.BOOTSTRAP]
 app.layout =  html.Div(children=[
         dbc.Row([
             dbc.Col(children = [
-            dbc.Row([
-                html.Img(
-                    src = 'https://raw.githubusercontent.com/anacmqui/Checkpoint5/main/wine.png',#style= {'width':'auto'}
-                ),
-            ], style= {'width':'100%'}
-            ),
+            #dbc.Row([
+                #html.Img(
+                 #   src = 'https://raw.githubusercontent.com/anacmqui/Checkpoint5/main/wine.png',#style= {'width':'auto'}
+                #),
+            #], style= {'width':'100%'}
+            #),
             html.Hr(),
             html.P("Discover:", className="lead",
                     style={"top": 0,

@@ -12,7 +12,7 @@ dash.register_page(__name__, path='/')
 
 df_states = pd.read_csv('https://raw.githubusercontent.com/anacmqui/Project6--Stocks/main/state_result.csv')
 df_sectors = pd.read_csv('https://raw.githubusercontent.com/anacmqui/Project6--Stocks/main/df_sectors%20(1).csv')
-df_stocks = pd.read_csv('https://raw.githubusercontent.com/anacmqui/Project6--Stocks/main/stock_info.csv')
+df_stocks = pd.read_csv('https://raw.githubusercontent.com/anacmqui/Project6--Stocks/main/df_stocks2.csv')
 df_comp_logo = pd.read_csv('https://raw.githubusercontent.com/anacmqui/Project6--Stocks/main/df_company.csv')
 
 df_sectors = df_sectors[df_sectors['Sector']!='Index']
@@ -93,7 +93,11 @@ layout  =  html.Div([
                     dbc.Col([
                         html.Label(['Select a stock:'], style={'font-weight': 'bold'}),
                         html.P(),
-                         ]),
+                         ], width = 6),
+                    dbc.Col([
+                        html.Label(['Select a date range:'], style={'font-weight': 'bold'}),
+                        html.P(),
+                         ], width = 6),
                     ]),
             dbc.Row([
                     dbc.Col([
@@ -150,6 +154,6 @@ def update_sector_graph(sector):
 def update_stock_graph(stock, start_date, end_date):
     dff = df_stocks.copy()
     dff = dff[(dff['Name'].isin(stock)) 
-    #| (dff['Date'].loc[start_date:end_date])
+    #& (dff['Date'].loc[start_date:end_date])
     ]
     return stocks_line(dff)

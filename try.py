@@ -1,57 +1,108 @@
-import dash
-from dash import html, dcc, callback, Input, Output, dash_table, State
-from dash import Dash
-import pandas as pd                                             # pip install pandas
+from dash import Dash, html, dcc, Input, Output
 import plotly.express as px
-import pymongo                                                  # pip install "pymongo[srv]"
-from bson.objectid import ObjectId
+import pandas as pd
 import dash_bootstrap_components as dbc
-from pymongo import MongoClient 
-
-#link = 'mongodb+srv://AnaQuint:anaquint@cluster0.rjc0cp4.mongodb.net/?retryWrites=true&w=majority'
-#client = MongoClient(link)
-#print(client.FinAna.transaction.find()[0])
 
 
-client = pymongo.MongoClient("mongodb+srv://ana3:wild@cluster1.vd2kmxj.mongodb.net/?retryWrites=true&w=majority")
-#client = MongoClient(link)
+app = Dash(__name__, external_stylesheets=[dbc.themes.SKETCHY])
 
-db = client['project6']
-accounts = db['accounts']
-transactions = db['transactions']
-users = db['users']
-#print(users.find()[0])
+## WHAT YOU DISPLAY
+# Additional Variables
+# Style Pars
 
-df = pd.DataFrame(list(accounts.find()))
-df['_id'] = df['_id'].astype(str)
-#df['id_users'] = df['id_users'].astype(str)
 
-app = dash.Dash(__name__)
+# Data
+airbnb = pd.read_csv('https://raw.githubusercontent.com/chriszapp/datasets/main/airbnb_lisbon_1480_2017-07-27.csv')
+airbnb_rev_by_neigh = airbnb.groupby('neighborhood')['reviews'].sum().reset_index()
 
-app.layout = dbc.Container([
-        dash_table.DataTable(
-            id='my-table',
-            columns=[{'name': 'User_id', 'id': '_id', 'type':'text'},
-                    {'name': 'Surname', 'id': 'Surname', 'type':'text'},
-                    {'name': 'First name', 'id': 'First_name', 'type':'text'},
-                    {'name': 'Email', 'id': 'Email', 'type':'text'},
-                    {'name': 'Date of birth', 'id': 'Date_birth', 'type':'datetime'},
-                    {'name': 'Currency', 'id': 'Currency', 'type':'text'},
+# Display Details
+par = 'Dash: A web application framework for your data.'
+# fig_n_review_count = px.bar(airbnb_rev_by_neigh, x = "neighborhood", y = "reviews")
+# dropdown_fig_list = list(map(lambda bed: str(int(bed)),airbnb['bedrooms'].unique())) + ['All']
+dropdown_fig_dbc = list(map(lambda bed: dbc.DropdownMenuItem(str(int(bed))),airbnb['bedrooms'].unique())) #+ [dbc.DropdownMenuItem('All')]
+
+
+# Additional Functions
+def fig_n_review_count(df = airbnb_rev_by_neigh):
+    return px.bar(df, x = "neighborhood", y = "reviews")
+
+# WHERE YOU DISPLAY
+# Layout
+app.layout = html.Div(children=[
+        dbc.Row(children = [
+            html.H1(
+                children = ['Hello Dash'],
+                # className = '--bs-danger-text'
+                ),
+            html.H2(
+                children = ['Whatever'],
+                style = {'color': 'blue'}, 
+            ),
+        ], style = {'margin': '20px'},
+        ),
+
+        dbc.Row([
+            html.P([par])
+        ]),
+
+        dbc.Row([
+            dbc.Col([       
+                # dcc.Dropdown(options = dropdown_fig_list, value = '1', id = 'bedrooms-dropdown', placeholder = 'Select a n of bedrooms'),   
+                # dbc.Select(
+                #     label="n Bedorooms",
+                #     children = dropdown_fig_dbc,
+                #     id = 'bedrooms-dropdown',
+                # ),
+                dbc.Select(
+                    options=[
+                        {"label": "Studio", "value": 0},
+                        {"label": "All options", "value": 'All'},
+                        {"label": "1 Bedroom", "value": 1},
                     ],
-            data=df.to_dict('records'),
-            editable=True,
-            row_deletable=True,
-            filter_action="native",
-            filter_options={"case": "sensitive"},
-            sort_action="native",  # give user capability to sort columns
-            sort_mode="single",  # sort across 'multi' or 'single' columns
-            page_current=0,  # page number that user is on
-            page_size=6,  # number of rows visible per page
-            style_cell={'textAlign': 'left', 'minWidth': '100px',
-                        'width': '100px', 'maxWidth': '100px'},
-                       )
-                    ])
-                    
+                    id="bedrooms-radio",
+                ),
+                # dbc.RadioItems(
+                #     options=[
+                #         {"label": "Studio", "value": 0},
+                #         {"label": "All options", "value": 'All'},
+                #         {"label": "1 Bedroom", "value": 1},
+                #     ],
+                #     value = 1,
+                #     id="bedrooms-radio",
+                # ),
+            ]),
 
+            dbc.Col(
+                dcc.Graph(
+                    id='fig-n-review-count-graph',
+                    figure = fig_n_review_count()
+                ),   
+            width = 10,
+            ),
+        ]),
+    ])
+
+
+
+# HOW THEY CHANGE
+# Callbacks
+@app.callback(
+    Output(component_id = 'fig-n-review-count-graph', component_property = 'figure'),
+    # Input(component_id = 'bedrooms-dropdown', component_property = 'value'),
+    Input(component_id = 'bedrooms-radio', component_property = 'value'),
+)
+def callback_function_name(beds):
+    if beds == 'All' or beds is None:
+    # print(beds)
+    # if beds == 'All':
+        airbnb_by_bedroom =airbnb.groupby('neighborhood')['reviews'].sum().reset_index()
+    else:
+        print(beds)
+        beds = float(beds)
+        airbnb_by_bedroom = airbnb[airbnb['bedrooms'] == beds].groupby('neighborhood')['reviews'].sum().reset_index()
+    return fig_n_review_count(airbnb_by_bedroom)
+ 
+
+# Call to run the App
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug = True)
