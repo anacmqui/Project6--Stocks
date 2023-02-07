@@ -13,6 +13,7 @@ dash.register_page(__name__, path='/')
 df_states = pd.read_csv('https://raw.githubusercontent.com/anacmqui/Project6--Stocks/main/state_result.csv')
 df_sectors = pd.read_csv('https://raw.githubusercontent.com/anacmqui/Project6--Stocks/main/df_sectors%20(1).csv')
 df_stocks = pd.read_csv('https://raw.githubusercontent.com/anacmqui/Project6--Stocks/main/stock_info.csv')
+df_comp_logo = pd.read_csv('https://raw.githubusercontent.com/anacmqui/Project6--Stocks/main/df_company.csv')
 
 df_sectors = df_sectors[df_sectors['Sector']!='Index']
 
@@ -92,7 +93,11 @@ layout  =  html.Div([
                     dbc.Col([
                         html.Label(['Select a stock:'], style={'font-weight': 'bold'}),
                         html.P(),
-                        dcc.Dropdown(options = dropdown_stocks, value = [1],multi=True, id = 'stocks-dropdown', placeholder = 'Type here'),]
+                         ]),
+                    ]),
+            dbc.Row([
+                    dbc.Col([
+                            dcc.Dropdown(options = dropdown_stocks, value = [1],multi=True, id = 'stocks-dropdown', placeholder = 'Type here'),]
                         ,width = 6),
                     dbc.Col([dcc.DatePickerRange(
                             #month_format='M-D-Y-Q',
@@ -105,7 +110,7 @@ layout  =  html.Div([
                             initial_visible_month=dt(2015, 1, 1),  # the month initially presented when the user opens the calendar
                             start_date=dt(2015, 1, 1).date(),
                             end_date=dt(2023, 2, 6).date(),
-                            display_format='M-D-Y-Q',
+                            #display_format='%B %d %Y',
                             id='date-range'
                             )
                         ], width = 6),
@@ -144,5 +149,7 @@ def update_sector_graph(sector):
 
 def update_stock_graph(stock, start_date, end_date):
     dff = df_stocks.copy()
-    dff = dff[(dff['Name'].isin(stock)) | (dff['Date'].loc[start_date:end_date])]
+    dff = dff[(dff['Name'].isin(stock)) 
+    #| (dff['Date'].loc[start_date:end_date])
+    ]
     return stocks_line(dff)
