@@ -71,15 +71,13 @@ layout  =  html.Div([
                      ), ]),
             dbc.Row([dcc.Graph(figure=us_map()),]),
             dbc.Row([
-                dbc.Col([
                     html.H2('Explore per industry', style={'textAlign':'center', "padding": "2rem 1rem"}
                             ),
-                    html.Label(['Select a country:'],
+                    html.Label(['Select an industry:'],
                     style={'font-weight': 'bold'}),
                     html.P(),   
                     dcc.Dropdown(options = dropdown_sectors, value = [1],multi=True, id = 'sectors-dropdown', placeholder = 'Press/type here'),
                     dcc.Graph(figure=sectors_line(), id='line-graph'),
-                     ], width=6),
                     ]),
                 #dbc.Col([html.H2('Where are the wines with 100 points?', style={'textAlign':'center', "padding": "2rem 1rem"}
                  #    ),
@@ -88,7 +86,7 @@ layout  =  html.Div([
                     #]),
 
             dbc.Row([
-                    html.H2('Explore per stock', style={'textAlign':'center', "padding": "2rem 1rem"}
+                    html.H2('Explore per company', style={'textAlign':'center', "padding": "2rem 1rem"}
                             ),]),
             dbc.Row([
                     dbc.Col([
@@ -147,14 +145,13 @@ def update_sector_graph(sector):
 
 @callback(
     Output(component_id = 'stock-graph', component_property = 'figure'),
-    Input(component_id = 'stocks-dropdown', component_property = 'value'),
     Input('date-range', 'start_date'),
-    Input('date-range', 'end_date')
+    Input('date-range', 'end_date'),
+    Input(component_id = 'stocks-dropdown', component_property = 'value'),
         )
 
 def update_stock_graph(stock, start_date, end_date):
     dff = df_stocks.copy()
-    dff = dff[(dff['Name'].isin(stock)) 
-    #& (dff['Date'].loc[start_date:end_date])
-    ]
+    dff = dff[dff['Name'].isin(stock)]
+    dff = dff['Date'].loc[start_date:end_date]
     return stocks_line(dff)
