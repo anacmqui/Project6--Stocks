@@ -20,10 +20,14 @@ accounts = db['accounts']
 transactions = db['transactions']
 users = db['users']
 
+DATATABLE_COLUMNS = ['_id','id_account', 'Date', 'Symbol', 'Price_per_share', 'Quantity']
+FIND_FIELDS = {k: 1 for k in DATATABLE_COLUMNS}
+FIND_FIELDS['_id'] = 0
+
 #print(db.users.find({})[0])
 user1 = db.users.find({})[0]
 user_docs = list(db.users.find({}))
-print('user_docs',user_docs )
+#print('user_docs',user_docs )
 accounts_docs = db.accounts.find({})
 
 def full_name(doc):
@@ -31,15 +35,14 @@ def full_name(doc):
 
 #print(list(map(full_name, db.users.find({}))))
 
-dropdown_index_user = list(map(full_name, db.users.find({})))
+#dropdown_index_user = list(map(full_name, db.users.find({})))
+
 #print(dropdown_index_user)
 #print(accounts_docs[0]['_id'])
 #print(db.transactions.find({'id_account':'63e1264fdfd5c71ad333973a'})[0])
 
 #account_index_id = 
 #print(accounts_docs[0]['_id'])
-
-print('database.py')
 
 
 dash.register_page(__name__, path='/database')
@@ -50,32 +53,29 @@ layout = html.Div([
                      children = ['Database'], style={'textAlign':'center', "padding": "2rem 1rem", 'color':'#8B1A1A'}
                      ), ]),
             dbc.Row([
-                 dbc.Select(
-                    options=[
-                        {"label": "Ana Quintino", "value": 0},
-                        {"label": "Cristina Zappullo", "value": 1},
-                        {"label": "Luisa Policarpo", "value": 2},
-                        {"label": "Sebastião Oliveira", "value": 3},
-                    ],
-                    value=0,
-                    id="users-select",
-                ),]),
+                dbc.Col([
+                    dbc.Label("Select a user:", style={'font-weight': 'bold'}),
+                    dbc.Select(
+                                options=[
+                                {"label": "Ana Quintino", "value": 0},
+                                {"label": "Cristina Zappullo", "value": 1},
+                                {"label": "Luisa Policarpo", "value": 2},
+                                {"label": "Sebastião Oliveira", "value": 3},
+                                        ],
+                                value=0,
+                                id="users-select",
+                             ), 
+                            ], width=3),
+                    ]),
             dbc.Row([
-                    html.Div(
-                        id = 'my-table'),
-                        ]),
-                #dash_table.DataTable(
-                 #       id='my-table',
-                  #      columns=[#{'name': 'Id', 'id': '_id'},
-                   #         {'name': 'Account_id', 'id': 'id_account'},
-                    #                {'name': 'Date', 'id': 'Date'},
-                     #               {'name': 'Symbol', 'id': 'Symbol'},
-                      #              {'name': 'Price per share', 'id': 'Price_per_share'},
-                       #             {'name': 'Quantity', 'id': 'Quantity'},
-                        #        ],)
-            
-                        #data = transactions.to_dict('records'),
-                    
+                 dbc.Col([ ], width=3, style = {'height':'50px'}),
+                    ]), 
+            dbc.Row([
+                dbc.Col([
+                    dbc.Label("List of transactions:", style={'font-weight': 'bold'}),
+                    dash_table.DataTable(
+                        id='my-table',
+                        columns = list(map(lambda col: {"name": col, "id": col} , DATATABLE_COLUMNS)),
                         #editable=True,
                         #row_deletable=True,
                         #filter_action="native",
@@ -86,31 +86,21 @@ layout = html.Div([
                         #page_size=6,  # number of rows visible per page
                         #style_cell={'textAlign': 'left', 'minWidth': '100px',
                          #           'width': '100px', 'maxWidth': '100px'},
-                ])
-                    
+                            )
+                ], width=10),
+            ]),
+            ])
             
 
 @callback(
-    Output(component_id = 'my-table', component_property = 'children'),
+    Output(component_id = 'my-table', component_property = 'data'),
     Input(component_id = 'users-select', component_property = 'value'),
 )
 def update_table(user):
-    #print('update_table')
-    #print(type(user), user)
     user = int(user)
     user_index_id = user_docs[user]['_id']
-    #print(type(user_index_id))
     account_index_id = db.accounts.find_one({'id_users':user_index_id})['_id']
-    #print(account_index_id)
-    transactions_user = list(db.transactions.find({'id_account':str(account_index_id)}))
-    #print(transactions_user)
-    return dash_table.DataTable(
-                       # id='my-table',
-                        columns=[{'name': 'Id', 'id': '_id'},
-                            {'name': 'Account_id', 'id': 'id_account'},
-                                    {'name': 'Date', 'id': 'Date'},
-                                    {'name': 'Symbol', 'id': 'Symbol'},
-                                    {'name': 'Price per share', 'id': 'Price_per_share'},
-                                    {'name': 'Quantity', 'id': 'Quantity'},
-                                ],
-                        data = transactions_user)
+    transactions_user = list(db.transactions.find({'id_account':str(account_index_id)},
+                                            {'_id':0, 'id_account':1, 'Date':1, 'Symbol':1, 
+                                            'Price_per_share':1, 'Quantity':1}))
+    return transactions_user
