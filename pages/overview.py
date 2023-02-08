@@ -7,13 +7,18 @@ import geopandas as gpd
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from datetime import datetime as dt
+from datetime import datetime
 
 dash.register_page(__name__, path='/')
 
 df_states = pd.read_csv('https://raw.githubusercontent.com/anacmqui/Project6--Stocks/main/state_result.csv')
 df_sectors = pd.read_csv('https://raw.githubusercontent.com/anacmqui/Project6--Stocks/main/df_sectors%20(1).csv')
-df_stocks = pd.read_csv('https://raw.githubusercontent.com/anacmqui/Project6--Stocks/main/df_stocks2.csv')
+df_stocks = pd.read_csv('https://raw.githubusercontent.com/anacmqui/Project6--Stocks/main/df_stocks_final.csv')
 df_comp_logo = pd.read_csv('https://raw.githubusercontent.com/anacmqui/Project6--Stocks/main/df_company.csv')
+
+print(type(df_stocks['Date'][0]))
+df_stocks['Date'] = pd.to_datetime(df_stocks['Date'])
+#df_stocks.set_index('Date', inplace=True)
 
 df_sectors = df_sectors[df_sectors['Sector']!='Index']
 
@@ -145,13 +150,16 @@ def update_sector_graph(sector):
 
 @callback(
     Output(component_id = 'stock-graph', component_property = 'figure'),
+    Input(component_id = 'stocks-dropdown', component_property = 'value'),
     Input('date-range', 'start_date'),
     Input('date-range', 'end_date'),
-    Input(component_id = 'stocks-dropdown', component_property = 'value'),
         )
 
 def update_stock_graph(stock, start_date, end_date):
+    start_date = datetime.strptime(start_date, '%Y-%m-%d')
+    end_date = datetime.strptime(end_date, "%Y-%m-%d")
+    print(type(start_date))
     dff = df_stocks.copy()
-    dff = dff[dff['Name'].isin(stock)]
-    dff = dff['Date'].loc[start_date:end_date]
+    dff = dff[(dff['Name'].isin(stock)) & (dff['Date']>start_date) & (dff['Date']< end_date)]
+    #dff = dff.loc[start_date:end_date]
     return stocks_line(dff)
