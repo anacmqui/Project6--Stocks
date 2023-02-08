@@ -1,0 +1,475 @@
+,Unnamed: 0,Date,Symbol,Close,Adj Close,Name,Sector,Name_low2,url
+0,2036,2023-02-03,A,154.5500030517578,154.5500030517578,Agilent Technologies,Health Care,agilent,https://app.outboundsales.io/api/logo/agilent.com
+1,4073,2023-02-03,AAL,17.020000457763672,17.020000457763672,American Airlines Group,Industrials,american,https://app.outboundsales.io/api/logo/american.com
+2,6110,2023-02-03,AAP,152.1699981689453,152.1699981689453,Advance Auto Parts,Consumer Discretionary,advance,https://app.outboundsales.io/api/logo/advance.com
+3,8147,2023-02-03,AAPL,154.5,154.5,Apple,Information Technology,apple,https://app.outboundsales.io/api/logo/apple.com
+4,10184,2023-02-03,ABBV,145.1999969482422,145.1999969482422,AbbVie,Health Care,abbvie,https://app.outboundsales.io/api/logo/abbvie.com
+5,12221,2023-02-03,ABC,156.72999572753906,156.72999572753906,AmerisourceBergen,Health Care,amerisourcebergen,https://app.outboundsales.io/api/logo/amerisourcebergen.com
+6,14258,2023-02-03,ABT,111.79000091552734,111.79000091552734,Abbott Laboratories,Health Care,abbott,https://app.outboundsales.io/api/logo/abbott.com
+7,16295,2023-02-03,ACN,289.2200012207031,289.2200012207031,Accenture,Information Technology,accenture,https://app.outboundsales.io/api/logo/accenture.com
+8,18332,2023-02-03,ADBE,379.3299865722656,379.3299865722656,Adobe,Information Technology,adobe,https://app.outboundsales.io/api/logo/adobe.com
+9,20369,2023-02-03,ADI,178.82000732421875,178.82000732421875,Analog Devices,Information Technology,analog,https://app.outboundsales.io/api/logo/analog.com
+10,22406,2023-02-03,ADM,82.27999877929688,82.27999877929688,ADM,Consumer Staples,adm,https://app.outboundsales.io/api/logo/adm.com
+11,24443,2023-02-03,ADP,225.30999755859372,225.30999755859372,Automatic Data Processing,Information Technology,automatic,https://app.outboundsales.io/api/logo/automatic.com
+12,26480,2023-02-03,ADSK,223.66000366210935,223.66000366210935,Autodesk,Information Technology,autodesk,https://app.outboundsales.io/api/logo/autodesk.com
+13,28517,2023-02-03,AEE,85.30000305175781,85.30000305175781,Ameren Corp,Utilities,ameren,https://app.outboundsales.io/api/logo/ameren.com
+14,30554,2023-02-03,AEP,92.11000061035156,92.11000061035156,American Electric Power,Utilities,american,https://app.outboundsales.io/api/logo/american.com
+15,32591,2023-02-03,AES,26.239999771118164,26.239999771118164,AES Corp,Utilities,aes,https://app.outboundsales.io/api/logo/aes.com
+16,34628,2023-02-03,AFL,69.38999938964844,69.38999938964844,Aflac,Financials,aflac,https://app.outboundsales.io/api/logo/aflac.com
+17,36665,2023-02-03,AIG,58.75,58.75,American International Group,Financials,american,https://app.outboundsales.io/api/logo/american.com
+18,38702,2023-02-03,AIZ,133.6300048828125,133.6300048828125,Assurant,Financials,assurant,https://app.outboundsales.io/api/logo/assurant.com
+19,40739,2023-02-03,AJG,193.4900054931641,193.4900054931641,Arthur J. Gallagher & Co.,Financials,arthur,https://app.outboundsales.io/api/logo/arthur.com
+20,42776,2023-02-03,AKAM,89.33000183105469,89.33000183105469,Akamai Technologies,Information Technology,akamai,https://app.outboundsales.io/api/logo/akamai.com
+21,44813,2023-02-03,ALB,287.2300109863281,287.2300109863281,Albemarle Corporation,Materials,albemarle,https://app.outboundsales.io/api/logo/albemarle.com
+22,46850,2023-02-03,ALGN,343.1000061035156,343.1000061035156,Align Technology,Health Care,align,https://app.outboundsales.io/api/logo/align.com
+23,48887,2023-02-03,ALK,53.470001220703125,53.470001220703125,Alaska Air Group,Industrials,alaska,https://app.outboundsales.io/api/logo/alaska.com
+24,50924,2023-02-03,ALL,131.3300018310547,131.3300018310547,Allstate Corp,Financials,allstate,https://app.outboundsales.io/api/logo/allstate.com
+25,52961,2023-02-03,ALLE,122.93000030517578,122.93000030517578,Allegion,Industrials,allegion,https://app.outboundsales.io/api/logo/allegion.com
+26,54998,2023-02-03,AMAT,119.9800033569336,119.9800033569336,Applied Materials,Information Technology,applied,https://app.outboundsales.io/api/logo/applied.com
+27,56231,2023-02-03,AMCR,12.029999732971191,12.029999732971191,Amcor,Materials,amcor,https://app.outboundsales.io/api/logo/amcor.com
+28,58268,2023-02-03,AMD,86.08999633789062,86.08999633789062,Advanced Micro Devices,Information Technology,advanced,https://app.outboundsales.io/api/logo/advanced.com
+29,60305,2023-02-03,AME,146.3800048828125,146.3800048828125,Ametek,Industrials,ametek,https://app.outboundsales.io/api/logo/ametek.com
+30,62342,2023-02-03,AMGN,245.1699981689453,245.1699981689453,Amgen,Health Care,amgen,https://app.outboundsales.io/api/logo/amgen.com
+31,64379,2023-02-03,AMP,354.1000061035156,354.1000061035156,Ameriprise Financial,Financials,ameriprise,https://app.outboundsales.io/api/logo/ameriprise.com
+32,66416,2023-02-03,AMT,222.05999755859372,222.05999755859372,American Tower,Real Estate,american,https://app.outboundsales.io/api/logo/american.com
+33,68453,2023-02-03,AMZN,103.38999938964844,103.38999938964844,Amazon,Consumer Discretionary,amazon,https://app.outboundsales.io/api/logo/amazon.com
+34,70490,2023-02-03,ANET,131.9600067138672,131.9600067138672,Arista Networks,Information Technology,arista,https://app.outboundsales.io/api/logo/arista.com
+35,72527,2023-02-03,ANSS,275.2300109863281,275.2300109863281,Ansys,Information Technology,ansys,https://app.outboundsales.io/api/logo/ansys.com
+36,74564,2023-02-03,AON,313.6400146484375,313.6400146484375,Aon,Financials,aon,https://app.outboundsales.io/api/logo/aon.com
+37,76601,2023-02-03,AOS,69.05000305175781,69.05000305175781,A. O. Smith,Industrials,a.,https://app.outboundsales.io/api/logo/a.com
+38,78638,2023-02-03,APA,42.040000915527344,42.040000915527344,APA Corporation,Energy,apa,https://app.outboundsales.io/api/logo/apa.com
+39,80675,2023-02-03,APD,285.0199890136719,285.0199890136719,Air Products & Chemicals,Materials,air,https://app.outboundsales.io/api/logo/air.com
+40,82712,2023-02-03,APH,81.62000274658203,81.62000274658203,Amphenol,Information Technology,amphenol,https://app.outboundsales.io/api/logo/amphenol.com
+41,84749,2023-02-03,APTV,115.7300033569336,115.7300033569336,Aptiv,Consumer Discretionary,aptiv,https://app.outboundsales.io/api/logo/aptiv.com
+42,86786,2023-02-03,ARE,167.7899932861328,167.7899932861328,Alexandria Real Estate Equities,Real Estate,alexandria,https://app.outboundsales.io/api/logo/alexandria.com
+43,88823,2023-02-03,ATO,117.19000244140624,117.19000244140624,Atmos Energy,Utilities,atmos,https://app.outboundsales.io/api/logo/atmos.com
+44,90860,2023-02-03,ATVI,75.23999786376953,75.23999786376953,Activision Blizzard,Communication Services,activision,https://app.outboundsales.io/api/logo/activision.com
+45,92897,2023-02-03,AVB,180.25,180.25,AvalonBay Communities,Real Estate,avalonbay,https://app.outboundsales.io/api/logo/avalonbay.com
+46,94934,2023-02-03,AVGO,597.6199951171875,597.6199951171875,Broadcom,Information Technology,broadcom,https://app.outboundsales.io/api/logo/broadcom.com
+47,96971,2023-02-03,AVY,181.1999969482422,181.1999969482422,Avery Dennison,Materials,avery,https://app.outboundsales.io/api/logo/avery.com
+48,99008,2023-02-03,AWK,156.61000061035156,156.61000061035156,American Water Works,Utilities,american,https://app.outboundsales.io/api/logo/american.com
+49,101045,2023-02-03,AXP,178.86000061035156,178.86000061035156,American Express,Financials,american,https://app.outboundsales.io/api/logo/american.com
+50,103082,2023-02-03,AZO,2398.510009765625,2398.510009765625,AutoZone,Consumer Discretionary,autozone,https://app.outboundsales.io/api/logo/autozone.com
+51,105119,2023-02-03,BA,206.00999450683597,206.00999450683597,Boeing,Industrials,boeing,https://app.outboundsales.io/api/logo/boeing.com
+52,107156,2023-02-03,BAC,36.43000030517578,36.43000030517578,Bank of America,Financials,bank,https://app.outboundsales.io/api/logo/bank.com
+53,109193,2023-02-03,BAX,46.68000030517578,46.68000030517578,Baxter International,Health Care,baxter,https://app.outboundsales.io/api/logo/baxter.com
+54,111230,2023-02-03,BBWI,46.84999847412109,46.84999847412109,Bath & Body Works Inc.,Consumer Discretionary,bath,https://app.outboundsales.io/api/logo/bath.com
+55,113267,2023-02-03,BBY,90.31999969482422,90.31999969482422,Best Buy,Consumer Discretionary,best,https://app.outboundsales.io/api/logo/best.com
+56,115304,2023-02-03,BDX,245.83999633789065,245.83999633789065,Becton Dickinson,Health Care,becton,https://app.outboundsales.io/api/logo/becton.com
+57,117341,2023-02-03,BEN,33.27000045776367,33.27000045776367,Franklin Resources,Financials,franklin,https://app.outboundsales.io/api/logo/franklin.com
+58,119378,2023-02-03,BIIB,283.6300048828125,283.6300048828125,Biogen,Health Care,biogen,https://app.outboundsales.io/api/logo/biogen.com
+59,121415,2023-02-03,BIO,470.8800048828125,470.8800048828125,Bio-Rad Laboratories,Health Care,bio-rad,https://app.outboundsales.io/api/logo/bio.com
+60,123452,2023-02-03,BK,50.22999954223633,50.22999954223633,BNY Mellon,Financials,bny,https://app.outboundsales.io/api/logo/bny.com
+61,125489,2023-02-03,BKNG,2455.070068359375,2455.070068359375,Booking Holdings,Consumer Discretionary,booking,https://app.outboundsales.io/api/logo/booking.com
+62,127526,2023-02-03,BKR,31.3700008392334,31.3700008392334,Baker Hughes,Energy,baker,https://app.outboundsales.io/api/logo/baker.com
+63,129563,2023-02-03,BLK,757.1599731445312,757.1599731445312,BlackRock,Financials,blackrock,https://app.outboundsales.io/api/logo/blackrock.com
+64,131600,2023-02-03,BMY,74.44999694824219,74.44999694824219,Bristol Myers Squibb,Health Care,bristol,https://app.outboundsales.io/api/logo/bristol.com
+65,133637,2023-02-03,BR,153.5800018310547,153.5800018310547,Broadridge Financial Solutions,Information Technology,broadridge,https://app.outboundsales.io/api/logo/broadridge.com
+66,135674,2023-02-03,BRO,58.38999938964844,58.38999938964844,Brown & Brown,Financials,brown,https://app.outboundsales.io/api/logo/brown.com
+67,137711,2023-02-03,BSX,48.5,48.5,Boston Scientific,Health Care,boston,https://app.outboundsales.io/api/logo/boston.com
+68,139748,2023-02-03,BWA,47.61000061035156,47.61000061035156,BorgWarner,Consumer Discretionary,borgwarner,https://app.outboundsales.io/api/logo/borgwarner.com
+69,141785,2023-02-03,BXP,75.4800033569336,75.4800033569336,Boston Properties,Real Estate,boston,https://app.outboundsales.io/api/logo/boston.com
+70,143822,2023-02-03,C,50.95000076293945,50.95000076293945,Citigroup,Financials,citigroup,https://app.outboundsales.io/api/logo/citigroup.com
+71,145859,2023-02-03,CAG,36.45000076293945,36.45000076293945,Conagra Brands,Consumer Staples,conagra,https://app.outboundsales.io/api/logo/conagra.com
+72,147896,2023-02-03,CAH,78.66999816894531,78.66999816894531,Cardinal Health,Health Care,cardinal,https://app.outboundsales.io/api/logo/cardinal.com
+73,148622,2023-02-03,CARR,46.88999938964844,46.88999938964844,Carrier Global,Industrials,carrier,https://app.outboundsales.io/api/logo/carrier.com
+74,150659,2023-02-03,CAT,247.75999450683597,247.75999450683597,Caterpillar,Industrials,caterpillar,https://app.outboundsales.io/api/logo/caterpillar.com
+75,152696,2023-02-03,CB,209.83999633789065,209.83999633789065,Chubb,Financials,chubb,https://app.outboundsales.io/api/logo/chubb.com
+76,154733,2023-02-03,CBOE,124.26000213623048,124.26000213623048,Cboe Global Markets,Financials,cboe,https://app.outboundsales.io/api/logo/cboe.com
+77,156770,2023-02-03,CBRE,87.13999938964844,87.13999938964844,CBRE,Real Estate,cbre,https://app.outboundsales.io/api/logo/cbre.com
+78,158807,2023-02-03,CCI,145.97000122070312,145.97000122070312,Crown Castle,Real Estate,crown,https://app.outboundsales.io/api/logo/crown.com
+79,160844,2023-02-03,CCL,11.800000190734863,11.800000190734863,Carnival Corporation,Consumer Discretionary,carnival,https://app.outboundsales.io/api/logo/carnival.com
+80,162047,2023-02-03,CDAY,76.19999694824219,76.19999694824219,Ceridian,Information Technology,ceridian,https://app.outboundsales.io/api/logo/ceridian.com
+81,164084,2023-02-03,CDNS,185.8500061035156,185.8500061035156,Cadence Design Systems,Information Technology,cadence,https://app.outboundsales.io/api/logo/cadence.com
+82,166121,2023-02-03,CDW,201.0800018310547,201.0800018310547,CDW,Information Technology,cdw,https://app.outboundsales.io/api/logo/cdw.com
+83,168158,2023-02-03,CE,125.4499969482422,125.4499969482422,Celanese,Materials,celanese,https://app.outboundsales.io/api/logo/celanese.com
+84,170195,2023-02-03,CF,85.93000030517578,85.93000030517578,CF Industries,Materials,cf,https://app.outboundsales.io/api/logo/cf.com
+85,172232,2023-02-03,CFG,44.43999862670898,44.43999862670898,Citizens Financial Group,Financials,citizens,https://app.outboundsales.io/api/logo/citizens.com
+86,174269,2023-02-03,CHD,82.9000015258789,82.9000015258789,Church & Dwight,Consumer Staples,church,https://app.outboundsales.io/api/logo/church.com
+87,176306,2023-02-03,CHRW,103.62000274658205,103.62000274658205,C. H. Robinson,Industrials,c.,https://app.outboundsales.io/api/logo/c.com
+88,178343,2023-02-03,CHTR,406.2999877929688,406.2999877929688,Charter Communications,Communication Services,charter,https://app.outboundsales.io/api/logo/charter.com
+89,180380,2023-02-03,CI,292.5899963378906,292.5899963378906,Cigna,Health Care,cigna,https://app.outboundsales.io/api/logo/cigna.com
+90,182417,2023-02-03,CINF,115.11000061035156,115.11000061035156,Cincinnati Financial,Financials,cincinnati,https://app.outboundsales.io/api/logo/cincinnati.com
+91,184454,2023-02-03,CL,74.29000091552734,74.29000091552734,Colgate-Palmolive,Consumer Staples,colgate-palmolive,https://app.outboundsales.io/api/logo/colgate.com
+92,186491,2023-02-03,CLX,154.77000427246094,154.77000427246094,Clorox,Consumer Staples,clorox,https://app.outboundsales.io/api/logo/clorox.com
+93,188528,2023-02-03,CMA,75.38999938964844,75.38999938964844,Comerica,Financials,comerica,https://app.outboundsales.io/api/logo/comerica.com
+94,190565,2023-02-03,CMCSA,39.970001220703125,39.970001220703125,Comcast,Communication Services,comcast,https://app.outboundsales.io/api/logo/comcast.com
+95,192602,2023-02-03,CME,176.5500030517578,176.5500030517578,CME Group,Financials,cme,https://app.outboundsales.io/api/logo/cme.com
+96,194639,2023-02-03,CMG,1692.969970703125,1692.969970703125,Chipotle Mexican Grill,Consumer Discretionary,chipotle,https://app.outboundsales.io/api/logo/chipotle.com
+97,196676,2023-02-03,CMI,256.1099853515625,256.1099853515625,Cummins,Industrials,cummins,https://app.outboundsales.io/api/logo/cummins.com
+98,198713,2023-02-03,CMS,62.75,62.75,CMS Energy,Utilities,cms,https://app.outboundsales.io/api/logo/cms.com
+99,200750,2023-02-03,CNC,71.01000213623047,71.01000213623047,Centene Corporation,Health Care,centene,https://app.outboundsales.io/api/logo/centene.com
+100,202787,2023-02-03,CNP,29.200000762939453,29.200000762939453,CenterPoint Energy,Utilities,centerpoint,https://app.outboundsales.io/api/logo/centerpoint.com
+101,204824,2023-02-03,COF,121.44000244140624,121.44000244140624,Capital One Financial,Financials,capital,https://app.outboundsales.io/api/logo/capital.com
+102,206861,2023-02-03,COO,354.489990234375,354.489990234375,The Cooper Companies,Health Care,the,https://app.outboundsales.io/api/logo/the.com
+103,208898,2023-02-03,COP,108.11000061035156,108.11000061035156,ConocoPhillips,Energy,conocophillips,https://app.outboundsales.io/api/logo/conocophillips.com
+104,210935,2023-02-03,COST,514.7999877929688,514.7999877929688,Costco,Consumer Staples,costco,https://app.outboundsales.io/api/logo/costco.com
+105,212972,2023-02-03,CPB,50.880001068115234,50.880001068115234,Campbell Soup,Consumer Staples,campbell,https://app.outboundsales.io/api/logo/campbell.com
+106,215009,2023-02-03,CPRT,68.63999938964844,68.63999938964844,Copart,Industrials,copart,https://app.outboundsales.io/api/logo/copart.com
+107,217046,2023-02-03,CRL,250.3500061035156,250.3500061035156,Charles River Laboratories,Health Care,charles,https://app.outboundsales.io/api/logo/charles.com
+108,219083,2023-02-03,CRM,171.0399932861328,171.0399932861328,Salesforce,Information Technology,salesforce,https://app.outboundsales.io/api/logo/salesforce.com
+109,221120,2023-02-03,CSCO,48.630001068115234,48.630001068115234,Cisco Systems,Information Technology,cisco,https://app.outboundsales.io/api/logo/cisco.com
+110,223157,2023-02-03,CSX,32.27000045776367,32.27000045776367,CSX,Industrials,csx,https://app.outboundsales.io/api/logo/csx.com
+111,225194,2023-02-03,CTAS,442.4200134277344,442.4200134277344,Cintas Corporation,Industrials,cintas,https://app.outboundsales.io/api/logo/cintas.com
+112,227231,2023-02-03,CTLT,56.04999923706055,56.04999923706055,Catalent,Health Care,catalent,https://app.outboundsales.io/api/logo/catalent.com
+113,229268,2023-02-03,CTRA,24.26000022888184,24.26000022888184,Coterra,Energy,coterra,https://app.outboundsales.io/api/logo/coterra.com
+114,231305,2023-02-03,CTSH,68.22000122070312,68.22000122070312,Cognizant Technology Solutions,Information Technology,cognizant,https://app.outboundsales.io/api/logo/cognizant.com
+115,232237,2023-02-03,CTVA,61.5,61.5,Corteva,Materials,corteva,https://app.outboundsales.io/api/logo/corteva.com
+116,234274,2023-02-03,CVS,85.7699966430664,85.7699966430664,CVS Health,Health Care,cvs,https://app.outboundsales.io/api/logo/cvs.com
+117,236311,2023-02-03,CVX,169.4499969482422,169.4499969482422,Chevron Corporation,Energy,chevron,https://app.outboundsales.io/api/logo/chevron.com
+118,238348,2023-02-03,CZR,54.9900016784668,54.9900016784668,Caesars Entertainment,Consumer Discretionary,caesars,https://app.outboundsales.io/api/logo/caesars.com
+119,240385,2023-02-03,D,60.25,60.25,Dominion Energy,Utilities,dominion,https://app.outboundsales.io/api/logo/dominion.com
+120,242422,2023-02-03,DAL,39.58000183105469,39.58000183105469,Delta Air Lines,Industrials,delta,https://app.outboundsales.io/api/logo/delta.com
+121,244459,2023-02-03,DD,72.9800033569336,72.9800033569336,DuPont,Materials,dupont,https://app.outboundsales.io/api/logo/dupont.com
+122,246496,2023-02-03,DE,406.05999755859375,406.05999755859375,Deere & Co.,Industrials,deere,https://app.outboundsales.io/api/logo/deere.com
+123,248533,2023-02-03,DFS,119.0,119.0,Discover Financial Services,Financials,discover,https://app.outboundsales.io/api/logo/discover.com
+124,250570,2023-02-03,DG,228.08999633789065,228.08999633789065,Dollar General,Consumer Discretionary,dollar,https://app.outboundsales.io/api/logo/dollar.com
+125,252607,2023-02-03,DGX,142.80999755859375,142.80999755859375,Quest Diagnostics,Health Care,quest,https://app.outboundsales.io/api/logo/quest.com
+126,254644,2023-02-03,DHI,99.47000122070312,99.47000122070312,D. R. Horton,Consumer Discretionary,d.,https://app.outboundsales.io/api/logo/d.com
+127,256681,2023-02-03,DHR,269.8500061035156,269.8500061035156,Danaher Corporation,Health Care,danaher,https://app.outboundsales.io/api/logo/danaher.com
+128,258718,2023-02-03,DIS,110.70999908447266,110.70999908447266,The Walt Disney Company,Communication Services,the,https://app.outboundsales.io/api/logo/the.com
+129,260755,2023-02-03,DISH,15.079999923706056,15.079999923706056,Dish Network,Communication Services,dish,https://app.outboundsales.io/api/logo/dish.com
+130,262792,2023-02-03,DLR,115.20999908447266,115.20999908447266,Digital Realty Trust,Real Estate,digital,https://app.outboundsales.io/api/logo/digital.com
+131,264829,2023-02-03,DLTR,149.91000366210938,149.91000366210938,Dollar Tree,Consumer Discretionary,dollar,https://app.outboundsales.io/api/logo/dollar.com
+132,266866,2023-02-03,DOV,159.61000061035156,159.61000061035156,Dover Corporation,Industrials,dover,https://app.outboundsales.io/api/logo/dover.com
+133,267844,2023-02-03,DOW,60.0,60.0,Dow,Materials,dow,https://app.outboundsales.io/api/logo/dow.com
+134,269881,2023-02-03,DPZ,359.6199951171875,359.6199951171875,Domino's Pizza,Consumer Discretionary,domino's,https://app.outboundsales.io/api/logo/domino.com
+135,271918,2023-02-03,DRI,147.4199981689453,147.4199981689453,Darden Restaurants,Consumer Discretionary,darden,https://app.outboundsales.io/api/logo/darden.com
+136,273955,2023-02-03,DTE,112.76000213623048,112.76000213623048,DTE Energy,Utilities,dte,https://app.outboundsales.io/api/logo/dte.com
+137,275992,2023-02-03,DUK,100.58000183105467,100.58000183105467,Duke Energy,Utilities,duke,https://app.outboundsales.io/api/logo/duke.com
+138,278029,2023-02-03,DVA,85.4800033569336,85.4800033569336,DaVita,Health Care,davita,https://app.outboundsales.io/api/logo/davita.com
+139,280066,2023-02-03,DVN,60.84999847412109,60.84999847412109,Devon Energy,Energy,devon,https://app.outboundsales.io/api/logo/devon.com
+140,282103,2023-02-03,DXC,28.88999938964844,28.88999938964844,DXC Technology,Information Technology,dxc,https://app.outboundsales.io/api/logo/dxc.com
+141,284140,2023-02-03,DXCM,108.43000030517578,108.43000030517578,DexCom,Health Care,dexcom,https://app.outboundsales.io/api/logo/dexcom.com
+142,286177,2023-02-03,EA,113.91999816894533,113.91999816894533,Electronic Arts,Communication Services,electronic,https://app.outboundsales.io/api/logo/electronic.com
+143,288214,2023-02-03,EBAY,50.65999984741211,50.65999984741211,eBay,Consumer Discretionary,ebay,https://app.outboundsales.io/api/logo/ebay.com
+144,290251,2023-02-03,ECL,153.2899932861328,153.2899932861328,Ecolab,Materials,ecolab,https://app.outboundsales.io/api/logo/ecolab.com
+145,292288,2023-02-03,ED,92.93000030517578,92.93000030517578,Consolidated Edison,Utilities,consolidated,https://app.outboundsales.io/api/logo/consolidated.com
+146,294325,2023-02-03,EFX,225.9900054931641,225.9900054931641,Equifax,Industrials,equifax,https://app.outboundsales.io/api/logo/equifax.com
+147,296362,2023-02-03,EIX,66.87000274658203,66.87000274658203,Edison International,Utilities,edison,https://app.outboundsales.io/api/logo/edison.com
+148,298399,2023-02-03,EL,269.5400085449219,269.5400085449219,Estée Lauder Companies,Consumer Staples,estée,https://app.outboundsales.io/api/logo/est.com
+149,300436,2023-02-03,EMN,90.1999969482422,90.1999969482422,Eastman Chemical,Materials,eastman,https://app.outboundsales.io/api/logo/eastman.com
+150,302473,2023-02-03,EMR,91.38999938964844,91.38999938964844,Emerson Electric Company,Industrials,emerson,https://app.outboundsales.io/api/logo/emerson.com
+151,304510,2023-02-03,ENPH,222.92999267578125,222.92999267578125,Enphase Energy,Information Technology,enphase,https://app.outboundsales.io/api/logo/enphase.com
+152,306547,2023-02-03,EOG,124.62000274658205,124.62000274658205,EOG Resources,Energy,eog,https://app.outboundsales.io/api/logo/eog.com
+153,308584,2023-02-03,EQIX,733.0,733.0,Equinix,Real Estate,equinix,https://app.outboundsales.io/api/logo/equinix.com
+154,310621,2023-02-03,EQR,64.7300033569336,64.7300033569336,Equity Residential,Real Estate,equity,https://app.outboundsales.io/api/logo/equity.com
+155,312658,2023-02-03,ES,80.3499984741211,80.3499984741211,Eversource Energy,Utilities,eversource,https://app.outboundsales.io/api/logo/eversource.com
+156,314695,2023-02-03,ESS,230.33999633789065,230.33999633789065,Essex Property Trust,Real Estate,essex,https://app.outboundsales.io/api/logo/essex.com
+157,316732,2023-02-03,ETN,163.24000549316406,163.24000549316406,Eaton Corporation,Industrials,eaton,https://app.outboundsales.io/api/logo/eaton.com
+158,318769,2023-02-03,ETR,108.08000183105467,108.08000183105467,Entergy,Utilities,entergy,https://app.outboundsales.io/api/logo/entergy.com
+159,320735,2023-02-03,ETSY,147.5,147.5,Etsy,Consumer Discretionary,etsy,https://app.outboundsales.io/api/logo/etsy.com
+160,322772,2023-02-03,EVRG,61.63999938964844,61.63999938964844,Evergy,Utilities,evergy,https://app.outboundsales.io/api/logo/evergy.com
+161,324809,2023-02-03,EW,82.12000274658203,82.12000274658203,Edwards Lifesciences,Health Care,edwards,https://app.outboundsales.io/api/logo/edwards.com
+162,326846,2023-02-03,EXC,40.900001525878906,40.900001525878906,Exelon,Utilities,exelon,https://app.outboundsales.io/api/logo/exelon.com
+163,328883,2023-02-03,EXPD,117.02999877929688,117.02999877929688,Expeditors,Industrials,expeditors,https://app.outboundsales.io/api/logo/expeditors.com
+164,330920,2023-02-03,EXPE,118.6999969482422,118.6999969482422,Expedia Group,Consumer Discretionary,expedia,https://app.outboundsales.io/api/logo/expedia.com
+165,332957,2023-02-03,EXR,163.1300048828125,163.1300048828125,Extra Space Storage,Real Estate,extra,https://app.outboundsales.io/api/logo/extra.com
+166,334994,2023-02-03,F,13.229999542236328,13.229999542236328,Ford,Consumer Discretionary,ford,https://app.outboundsales.io/api/logo/ford.com
+167,337031,2023-02-03,FANG,138.39999389648438,138.39999389648438,Diamondback Energy,Energy,diamondback,https://app.outboundsales.io/api/logo/diamondback.com
+168,339068,2023-02-03,FAST,54.20000076293945,54.20000076293945,Fastenal,Industrials,fastenal,https://app.outboundsales.io/api/logo/fastenal.com
+169,341105,2023-02-03,FCX,43.15999984741211,43.15999984741211,Freeport-McMoRan,Materials,freeport-mcmoran,https://app.outboundsales.io/api/logo/freeport.com
+170,343142,2023-02-03,FDX,214.6699981689453,214.6699981689453,FedEx,Industrials,fedex,https://app.outboundsales.io/api/logo/fedex.com
+171,345179,2023-02-03,FE,39.52000045776367,39.52000045776367,FirstEnergy,Utilities,firstenergy,https://app.outboundsales.io/api/logo/firstenergy.com
+172,347216,2023-02-03,FFIV,152.39999389648438,152.39999389648438,F5 Networks,Information Technology,f5,https://app.outboundsales.io/api/logo/f5.com
+173,349253,2023-02-03,FIS,75.38999938964844,75.38999938964844,Fidelity National Information Services,Information Technology,fidelity,https://app.outboundsales.io/api/logo/fidelity.com
+174,351290,2023-02-03,FISV,106.5999984741211,106.5999984741211,Fiserv,Information Technology,fiserv,https://app.outboundsales.io/api/logo/fiserv.com
+175,353327,2023-02-03,FITB,37.63999938964844,37.63999938964844,Fifth Third Bancorp,Financials,fifth,https://app.outboundsales.io/api/logo/fifth.com
+176,355364,2023-02-03,FLT,218.1999969482422,218.1999969482422,Fleetcor,Information Technology,fleetcor,https://app.outboundsales.io/api/logo/fleetcor.com
+177,357401,2023-02-03,FMC,127.38999938964844,127.38999938964844,FMC Corporation,Materials,fmc,https://app.outboundsales.io/api/logo/fmc.com
+178,358384,2023-02-03,FOX,32.29999923706055,32.29999923706055,Fox Corporation (Class B),Communication Services,fox,https://app.outboundsales.io/api/logo/fox.com
+179,359368,2023-02-03,FOXA,34.599998474121094,34.599998474121094,Fox Corporation (Class A),Communication Services,fox,https://app.outboundsales.io/api/logo/fox.com
+180,361405,2023-02-03,FRC,144.5,144.5,First Republic Bank,Financials,first,https://app.outboundsales.io/api/logo/first.com
+181,363442,2023-02-03,FRT,113.04000091552734,113.04000091552734,Federal Realty Investment Trust,Real Estate,federal,https://app.outboundsales.io/api/logo/federal.com
+182,365479,2023-02-03,FTNT,53.0,53.0,Fortinet,Information Technology,fortinet,https://app.outboundsales.io/api/logo/fortinet.com
+183,367138,2023-02-03,FTV,69.08000183105469,69.08000183105469,Fortive,Industrials,fortive,https://app.outboundsales.io/api/logo/fortive.com
+184,369175,2023-02-03,GD,231.5399932861328,231.5399932861328,General Dynamics,Industrials,general,https://app.outboundsales.io/api/logo/general.com
+185,371212,2023-02-03,GE,81.95999908447266,81.95999908447266,General Electric,Industrials,general,https://app.outboundsales.io/api/logo/general.com
+186,373249,2023-02-03,GILD,84.5,84.5,Gilead Sciences,Health Care,gilead,https://app.outboundsales.io/api/logo/gilead.com
+187,375286,2023-02-03,GIS,75.4800033569336,75.4800033569336,General Mills,Consumer Staples,general,https://app.outboundsales.io/api/logo/general.com
+188,377323,2023-02-03,GL,120.16000366210938,120.16000366210938,Globe Life,Financials,globe,https://app.outboundsales.io/api/logo/globe.com
+189,379360,2023-02-03,GLW,35.7400016784668,35.7400016784668,Corning,Information Technology,corning,https://app.outboundsales.io/api/logo/corning.com
+190,381397,2023-02-03,GM,41.130001068115234,41.130001068115234,General Motors,Consumer Discretionary,general,https://app.outboundsales.io/api/logo/general.com
+191,383434,2023-02-03,GNRC,122.44000244140624,122.44000244140624,Generac Holdings,Industrials,generac,https://app.outboundsales.io/api/logo/generac.com
+192,385471,2023-02-03,GOOG,105.22000122070312,105.22000122070312,Alphabet (Class C),Communication Services,alphabet,https://app.outboundsales.io/api/logo/alphabet.com
+193,387508,2023-02-03,GOOGL,104.77999877929688,104.77999877929688,Alphabet (Class A),Communication Services,alphabet,https://app.outboundsales.io/api/logo/alphabet.com
+194,389545,2023-02-03,GPC,168.2899932861328,168.2899932861328,Genuine Parts,Consumer Discretionary,genuine,https://app.outboundsales.io/api/logo/genuine.com
+195,391582,2023-02-03,GPN,113.05999755859376,113.05999755859376,Global Payments,Information Technology,global,https://app.outboundsales.io/api/logo/global.com
+196,393619,2023-02-03,GRMN,101.54000091552734,101.54000091552734,Garmin,Consumer Discretionary,garmin,https://app.outboundsales.io/api/logo/garmin.com
+197,395656,2023-02-03,GS,369.9500122070313,369.9500122070313,Goldman Sachs,Financials,goldman,https://app.outboundsales.io/api/logo/goldman.com
+198,397693,2023-02-03,GWW,675.8099975585938,675.8099975585938,W. W. Grainger,Industrials,w.,https://app.outboundsales.io/api/logo/w.com
+199,399730,2023-02-03,HAL,38.56999969482422,38.56999969482422,Halliburton,Energy,halliburton,https://app.outboundsales.io/api/logo/halliburton.com
+200,401767,2023-02-03,HAS,61.72999954223633,61.72999954223633,Hasbro,Consumer Discretionary,hasbro,https://app.outboundsales.io/api/logo/hasbro.com
+201,403804,2023-02-03,HBAN,15.449999809265137,15.449999809265137,Huntington Bancshares,Financials,huntington,https://app.outboundsales.io/api/logo/huntington.com
+202,405841,2023-02-03,HCA,258.0799865722656,258.0799865722656,HCA Healthcare,Health Care,hca,https://app.outboundsales.io/api/logo/hca.com
+203,407878,2023-02-03,HD,331.5,331.5,Home Depot,Consumer Discretionary,home,https://app.outboundsales.io/api/logo/home.com
+204,409915,2023-02-03,HES,137.57000732421875,137.57000732421875,Hess Corporation,Energy,hess,https://app.outboundsales.io/api/logo/hess.com
+205,411952,2023-02-03,HIG,74.7699966430664,74.7699966430664,The Hartford,Financials,the,https://app.outboundsales.io/api/logo/the.com
+206,413989,2023-02-03,HII,216.97000122070312,216.97000122070312,Huntington Ingalls Industries,Industrials,huntington,https://app.outboundsales.io/api/logo/huntington.com
+207,416026,2023-02-03,HLT,146.82000732421875,146.82000732421875,Hilton Worldwide,Consumer Discretionary,hilton,https://app.outboundsales.io/api/logo/hilton.com
+208,418063,2023-02-03,HOLX,84.68000030517578,84.68000030517578,Hologic,Health Care,hologic,https://app.outboundsales.io/api/logo/hologic.com
+209,420100,2023-02-03,HON,202.69000244140625,202.69000244140625,Honeywell,Industrials,honeywell,https://app.outboundsales.io/api/logo/honeywell.com
+210,421937,2023-02-03,HPE,16.329999923706055,16.329999923706055,Hewlett Packard Enterprise,Information Technology,hewlett,https://app.outboundsales.io/api/logo/hewlett.com
+211,423974,2023-02-03,HPQ,30.51000022888184,30.51000022888184,HP,Information Technology,hp,https://app.outboundsales.io/api/logo/hp.com
+212,426011,2023-02-03,HRL,45.2400016784668,45.2400016784668,Hormel,Consumer Staples,hormel,https://app.outboundsales.io/api/logo/hormel.com
+213,428048,2023-02-03,HSIC,86.76000213623047,86.76000213623047,Henry Schein,Health Care,henry,https://app.outboundsales.io/api/logo/henry.com
+214,430085,2023-02-03,HST,19.06999969482422,19.06999969482422,Host Hotels & Resorts,Real Estate,host,https://app.outboundsales.io/api/logo/host.com
+215,432122,2023-02-03,HSY,236.27999877929688,236.27999877929688,The Hershey Company,Consumer Staples,the,https://app.outboundsales.io/api/logo/the.com
+216,434159,2023-02-03,HUM,476.5700073242188,476.5700073242188,Humana,Health Care,humana,https://app.outboundsales.io/api/logo/humana.com
+217,435734,2023-02-03,HWM,39.86000061035156,39.86000061035156,Howmet Aerospace,Industrials,howmet,https://app.outboundsales.io/api/logo/howmet.com
+218,437771,2023-02-03,IBM,136.94000244140625,136.94000244140625,IBM,Information Technology,ibm,https://app.outboundsales.io/api/logo/ibm.com
+219,439808,2023-02-03,ICE,107.66000366210938,107.66000366210938,Intercontinental Exchange,Financials,intercontinental,https://app.outboundsales.io/api/logo/intercontinental.com
+220,441845,2023-02-03,IDXX,482.4100036621094,482.4100036621094,Idexx Laboratories,Health Care,idexx,https://app.outboundsales.io/api/logo/idexx.com
+221,443882,2023-02-03,IEX,229.83999633789065,229.83999633789065,IDEX Corporation,Industrials,idex,https://app.outboundsales.io/api/logo/idex.com
+222,445919,2023-02-03,IFF,113.33000183105467,113.33000183105467,International Flavors & Fragrances,Materials,international,https://app.outboundsales.io/api/logo/international.com
+223,447956,2023-02-03,ILMN,214.25999450683597,214.25999450683597,Illumina,Health Care,illumina,https://app.outboundsales.io/api/logo/illumina.com
+224,449993,2023-02-03,INCY,83.61000061035156,83.61000061035156,Incyte,Health Care,incyte,https://app.outboundsales.io/api/logo/incyte.com
+225,452030,2023-02-03,INTC,30.31999969482422,30.31999969482422,Intel,Information Technology,intel,https://app.outboundsales.io/api/logo/intel.com
+226,454067,2023-02-03,INTU,423.760009765625,423.760009765625,Intuit,Information Technology,intuit,https://app.outboundsales.io/api/logo/intuit.com
+227,456104,2023-02-03,IP,41.36000061035156,41.36000061035156,International Paper,Materials,international,https://app.outboundsales.io/api/logo/international.com
+228,458141,2023-02-03,IPG,39.11000061035156,39.11000061035156,Interpublic Group,Communication Services,interpublic,https://app.outboundsales.io/api/logo/interpublic.com
+229,460178,2023-02-03,IQV,237.17999267578125,237.17999267578125,IQVIA,Health Care,iqvia,https://app.outboundsales.io/api/logo/iqvia.com
+230,461621,2023-02-03,IR,57.11000061035156,57.11000061035156,Ingersoll Rand,Industrials,ingersoll,https://app.outboundsales.io/api/logo/ingersoll.com
+231,463658,2023-02-03,IRM,55.52999877929688,55.52999877929688,Iron Mountain,Real Estate,iron,https://app.outboundsales.io/api/logo/iron.com
+232,465695,2023-02-03,ISRG,254.67999267578125,254.67999267578125,Intuitive Surgical,Health Care,intuitive,https://app.outboundsales.io/api/logo/intuitive.com
+233,467732,2023-02-03,IT,341.95001220703125,341.95001220703125,Gartner,Information Technology,gartner,https://app.outboundsales.io/api/logo/gartner.com
+234,469769,2023-02-03,ITW,246.72999572753903,246.72999572753903,Illinois Tool Works,Industrials,illinois,https://app.outboundsales.io/api/logo/illinois.com
+235,471806,2023-02-03,IVZ,20.040000915527344,20.040000915527344,Invesco,Financials,invesco,https://app.outboundsales.io/api/logo/invesco.com
+236,473843,2023-02-03,J,125.5500030517578,125.5500030517578,Jacobs Engineering Group,Industrials,jacobs,https://app.outboundsales.io/api/logo/jacobs.com
+237,475880,2023-02-03,JBHT,197.88999938964844,197.88999938964844,J. B. Hunt,Industrials,j.,https://app.outboundsales.io/api/logo/j.com
+238,477917,2023-02-03,JCI,65.72000122070312,65.72000122070312,Johnson Controls,Industrials,johnson,https://app.outboundsales.io/api/logo/johnson.com
+239,479954,2023-02-03,JKHY,180.6999969482422,180.6999969482422,Jack Henry & Associates,Information Technology,jack,https://app.outboundsales.io/api/logo/jack.com
+240,481991,2023-02-03,JNJ,164.61000061035156,164.61000061035156,Johnson & Johnson,Health Care,johnson,https://app.outboundsales.io/api/logo/johnson.com
+241,484028,2023-02-03,JNPR,30.729999542236328,30.729999542236328,Juniper Networks,Information Technology,juniper,https://app.outboundsales.io/api/logo/juniper.com
+242,486065,2023-02-03,JPM,141.08999633789062,141.08999633789062,JPMorgan Chase,Financials,jpmorgan,https://app.outboundsales.io/api/logo/jpmorgan.com
+243,488102,2023-02-03,K,67.61000061035156,67.61000061035156,Kellogg's,Consumer Staples,kellogg's,https://app.outboundsales.io/api/logo/kellogg.com
+244,490139,2023-02-03,KEY,20.020000457763672,20.020000457763672,KeyCorp,Financials,keycorp,https://app.outboundsales.io/api/logo/keycorp.com
+245,492176,2023-02-03,KEYS,181.3999938964844,181.3999938964844,Keysight Technologies,Information Technology,keysight,https://app.outboundsales.io/api/logo/keysight.com
+246,494087,2023-02-03,KHC,39.380001068115234,39.380001068115234,Kraft Heinz,Consumer Staples,kraft,https://app.outboundsales.io/api/logo/kraft.com
+247,496124,2023-02-03,KIM,22.530000686645508,22.530000686645508,Kimco Realty,Real Estate,kimco,https://app.outboundsales.io/api/logo/kimco.com
+248,498161,2023-02-03,KLAC,408.2699890136719,408.2699890136719,KLA Corporation,Information Technology,kla,https://app.outboundsales.io/api/logo/kla.com
+249,500198,2023-02-03,KMB,131.25999450683594,131.25999450683594,Kimberly-Clark,Consumer Staples,kimberly-clark,https://app.outboundsales.io/api/logo/kimberly.com
+250,502235,2023-02-03,KMI,18.280000686645508,18.280000686645508,Kinder Morgan,Energy,kinder,https://app.outboundsales.io/api/logo/kinder.com
+251,504272,2023-02-03,KMX,78.19000244140625,78.19000244140625,CarMax,Consumer Discretionary,carmax,https://app.outboundsales.io/api/logo/carmax.com
+252,506309,2023-02-03,KO,59.83000183105469,59.83000183105469,Coca-Cola Company,Consumer Staples,coca-cola,https://app.outboundsales.io/api/logo/coca.com
+253,508346,2023-02-03,KR,44.41999816894531,44.41999816894531,Kroger,Consumer Staples,kroger,https://app.outboundsales.io/api/logo/kroger.com
+254,510383,2023-02-03,L,60.09999847412109,60.09999847412109,Loews Corporation,Financials,loews,https://app.outboundsales.io/api/logo/loews.com
+255,512420,2023-02-03,LDOS,98.05999755859376,98.05999755859376,Leidos,Industrials,leidos,https://app.outboundsales.io/api/logo/leidos.com
+256,514457,2023-02-03,LEN,104.80999755859376,104.80999755859376,Lennar,Consumer Discretionary,lennar,https://app.outboundsales.io/api/logo/lennar.com
+257,516494,2023-02-03,LH,249.33999633789065,249.33999633789065,LabCorp,Health Care,labcorp,https://app.outboundsales.io/api/logo/labcorp.com
+258,518531,2023-02-03,LHX,210.9499969482422,210.9499969482422,L3Harris Technologies,Industrials,l3harris,https://app.outboundsales.io/api/logo/l3harris.com
+259,520568,2023-02-03,LIN,323.6000061035156,323.6000061035156,Linde,Materials,linde,https://app.outboundsales.io/api/logo/linde.com
+260,522605,2023-02-03,LKQ,57.47999954223633,57.47999954223633,LKQ Corporation,Consumer Discretionary,lkq,https://app.outboundsales.io/api/logo/lkq.com
+261,524642,2023-02-03,LLY,339.0799865722656,339.0799865722656,Eli Lilly & Co,Health Care,eli,https://app.outboundsales.io/api/logo/eli.com
+262,526679,2023-02-03,LMT,459.0799865722656,459.0799865722656,Lockheed Martin,Industrials,lockheed,https://app.outboundsales.io/api/logo/lockheed.com
+263,528716,2023-02-03,LNC,35.27000045776367,35.27000045776367,Lincoln National,Financials,lincoln,https://app.outboundsales.io/api/logo/lincoln.com
+264,530753,2023-02-03,LNT,53.34000015258789,53.34000015258789,Alliant Energy,Utilities,alliant,https://app.outboundsales.io/api/logo/alliant.com
+265,532790,2023-02-03,LOW,215.97000122070312,215.97000122070312,Lowe's,Consumer Discretionary,lowe's,https://app.outboundsales.io/api/logo/lowe.com
+266,534827,2023-02-03,LRCX,529.25,529.25,Lam Research,Information Technology,lam,https://app.outboundsales.io/api/logo/lam.com
+267,536864,2023-02-03,LUMN,5.260000228881836,5.260000228881836,Lumen Technologies,Communication Services,lumen,https://app.outboundsales.io/api/logo/lumen.com
+268,538901,2023-02-03,LUV,36.34999847412109,36.34999847412109,Southwest Airlines,Industrials,southwest,https://app.outboundsales.io/api/logo/southwest.com
+269,540938,2023-02-03,LVS,58.08000183105469,58.08000183105469,Las Vegas Sands,Consumer Discretionary,las,https://app.outboundsales.io/api/logo/las.com
+270,542506,2023-02-03,LW,98.12000274658205,98.12000274658205,Lamb Weston,Consumer Staples,lamb,https://app.outboundsales.io/api/logo/lamb.com
+271,544543,2023-02-03,LYB,98.1500015258789,98.1500015258789,LyondellBasell,Materials,lyondellbasell,https://app.outboundsales.io/api/logo/lyondellbasell.com
+272,546580,2023-02-03,LYV,79.80000305175781,79.80000305175781,Live Nation Entertainment,Communication Services,live,https://app.outboundsales.io/api/logo/live.com
+273,548617,2023-02-03,MA,373.9100036621094,373.9100036621094,Mastercard,Information Technology,mastercard,https://app.outboundsales.io/api/logo/mastercard.com
+274,550654,2023-02-03,MAA,173.0500030517578,173.0500030517578,Mid-America Apartments,Real Estate,mid-america,https://app.outboundsales.io/api/logo/mid.com
+275,552691,2023-02-03,MAR,174.42999267578125,174.42999267578125,Marriott International,Consumer Discretionary,marriott,https://app.outboundsales.io/api/logo/marriott.com
+276,554728,2023-02-03,MAS,55.38999938964844,55.38999938964844,Masco,Industrials,masco,https://app.outboundsales.io/api/logo/masco.com
+277,556765,2023-02-03,MCD,264.2300109863281,264.2300109863281,McDonald's,Consumer Discretionary,mcdonald's,https://app.outboundsales.io/api/logo/mcdonald.com
+278,558802,2023-02-03,MCHP,85.33999633789062,85.33999633789062,Microchip Technology,Information Technology,microchip,https://app.outboundsales.io/api/logo/microchip.com
+279,560839,2023-02-03,MCK,362.5799865722656,362.5799865722656,McKesson Corporation,Health Care,mckesson,https://app.outboundsales.io/api/logo/mckesson.com
+280,562876,2023-02-03,MCO,324.3599853515625,324.3599853515625,Moody's Corporation,Financials,moody's,https://app.outboundsales.io/api/logo/moody.com
+281,564913,2023-02-03,MDLZ,65.91000366210938,65.91000366210938,Mondelez International,Consumer Staples,mondelez,https://app.outboundsales.io/api/logo/mondelez.com
+282,566950,2023-02-03,MDT,87.0999984741211,87.0999984741211,Medtronic,Health Care,medtronic,https://app.outboundsales.io/api/logo/medtronic.com
+283,568987,2023-02-03,MET,69.79000091552734,69.79000091552734,MetLife,Financials,metlife,https://app.outboundsales.io/api/logo/metlife.com
+284,571024,2023-02-03,MGM,41.709999084472656,41.709999084472656,MGM Resorts International,Consumer Discretionary,mgm,https://app.outboundsales.io/api/logo/mgm.com
+285,573061,2023-02-03,MHK,125.26000213623048,125.26000213623048,Mohawk Industries,Consumer Discretionary,mohawk,https://app.outboundsales.io/api/logo/mohawk.com
+286,575098,2023-02-03,MKC,74.54000091552734,74.54000091552734,McCormick & Company,Consumer Staples,mccormick,https://app.outboundsales.io/api/logo/mccormick.com
+287,577135,2023-02-03,MKTX,345.8999938964844,345.8999938964844,MarketAxess,Financials,marketaxess,https://app.outboundsales.io/api/logo/marketaxess.com
+288,579172,2023-02-03,MLM,360.6300048828125,360.6300048828125,Martin Marietta Materials,Materials,martin,https://app.outboundsales.io/api/logo/martin.com
+289,581209,2023-02-03,MMC,171.8800048828125,171.8800048828125,Marsh & McLennan,Financials,marsh,https://app.outboundsales.io/api/logo/marsh.com
+290,583246,2023-02-03,MMM,117.48999786376952,117.48999786376952,3M,Industrials,3m,https://app.outboundsales.io/api/logo/3m.com
+291,585283,2023-02-03,MNST,101.8000030517578,101.8000030517578,Monster Beverage,Consumer Staples,monster,https://app.outboundsales.io/api/logo/monster.com
+292,587320,2023-02-03,MO,46.90999984741211,46.90999984741211,Altria Group,Consumer Staples,altria,https://app.outboundsales.io/api/logo/altria.com
+293,589357,2023-02-03,MOS,50.43999862670898,50.43999862670898,The Mosaic Company,Materials,the,https://app.outboundsales.io/api/logo/the.com
+294,591394,2023-02-03,MPC,118.1999969482422,118.1999969482422,Marathon Petroleum,Energy,marathon,https://app.outboundsales.io/api/logo/marathon.com
+295,593431,2023-02-03,MPWR,456.2999877929688,456.2999877929688,Monolithic Power Systems,Information Technology,monolithic,https://app.outboundsales.io/api/logo/monolithic.com
+296,595468,2023-02-03,MRK,102.94000244140624,102.94000244140624,Merck & Co.,Health Care,merck,https://app.outboundsales.io/api/logo/merck.com
+297,596515,2023-02-03,MRNA,173.25,173.25,Moderna,Health Care,moderna,https://app.outboundsales.io/api/logo/moderna.com
+298,598552,2023-02-03,MRO,26.030000686645508,26.030000686645508,Marathon Oil,Energy,marathon,https://app.outboundsales.io/api/logo/marathon.com
+299,600589,2023-02-03,MS,99.43000030517578,99.43000030517578,Morgan Stanley,Financials,morgan,https://app.outboundsales.io/api/logo/morgan.com
+300,602626,2023-02-03,MSCI,567.4299926757812,567.4299926757812,MSCI,Financials,msci,https://app.outboundsales.io/api/logo/msci.com
+301,604663,2023-02-03,MSFT,258.3500061035156,258.3500061035156,Microsoft,Information Technology,microsoft,https://app.outboundsales.io/api/logo/microsoft.com
+302,606700,2023-02-03,MSI,256.44000244140625,256.44000244140625,Motorola Solutions,Information Technology,motorola,https://app.outboundsales.io/api/logo/motorola.com
+303,608737,2023-02-03,MTB,159.02000427246094,159.02000427246094,M&T Bank,Financials,m&t,https://app.outboundsales.io/api/logo/m.com
+304,610774,2023-02-03,MTCH,48.45000076293945,48.45000076293945,Match Group,Communication Services,match,https://app.outboundsales.io/api/logo/match.com
+305,612811,2023-02-03,MTD,1591.6500244140625,1591.6500244140625,Mettler Toledo,Health Care,mettler,https://app.outboundsales.io/api/logo/mettler.com
+306,614848,2023-02-03,MU,62.40999984741211,62.40999984741211,Micron Technology,Information Technology,micron,https://app.outboundsales.io/api/logo/micron.com
+307,616885,2023-02-03,NCLH,16.56999969482422,16.56999969482422,Norwegian Cruise Line Holdings,Consumer Discretionary,norwegian,https://app.outboundsales.io/api/logo/norwegian.com
+308,618922,2023-02-03,NDAQ,60.54999923706055,60.54999923706055,Nasdaq,Financials,nasdaq,https://app.outboundsales.io/api/logo/nasdaq.com
+309,620959,2023-02-03,NEE,74.66999816894531,74.66999816894531,NextEra Energy,Utilities,nextera,https://app.outboundsales.io/api/logo/nextera.com
+310,622996,2023-02-03,NEM,49.84999847412109,49.84999847412109,Newmont,Materials,newmont,https://app.outboundsales.io/api/logo/newmont.com
+311,625033,2023-02-03,NFLX,365.8999938964844,365.8999938964844,Netflix,Communication Services,netflix,https://app.outboundsales.io/api/logo/netflix.com
+312,627070,2023-02-03,NI,27.309999465942383,27.309999465942383,NiSource,Utilities,nisource,https://app.outboundsales.io/api/logo/nisource.com
+313,629107,2023-02-03,NKE,127.61000061035156,127.61000061035156,Nike,Consumer Discretionary,nike,https://app.outboundsales.io/api/logo/nike.com
+314,631144,2023-02-03,NOC,440.6400146484375,440.6400146484375,Northrop Grumman,Industrials,northrop,https://app.outboundsales.io/api/logo/northrop.com
+315,633181,2023-02-03,NOW,472.2200012207031,472.2200012207031,ServiceNow,Information Technology,servicenow,https://app.outboundsales.io/api/logo/servicenow.com
+316,635218,2023-02-03,NRG,34.43000030517578,34.43000030517578,NRG Energy,Utilities,nrg,https://app.outboundsales.io/api/logo/nrg.com
+317,637255,2023-02-03,NSC,252.1199951171875,252.1199951171875,Norfolk Southern,Industrials,norfolk,https://app.outboundsales.io/api/logo/norfolk.com
+318,639292,2023-02-03,NTAP,67.62000274658203,67.62000274658203,NetApp,Information Technology,netapp,https://app.outboundsales.io/api/logo/netapp.com
+319,641329,2023-02-03,NTRS,98.16999816894533,98.16999816894533,Northern Trust,Financials,northern,https://app.outboundsales.io/api/logo/northern.com
+320,643366,2023-02-03,NUE,176.6300048828125,176.6300048828125,Nucor,Materials,nucor,https://app.outboundsales.io/api/logo/nucor.com
+321,645403,2023-02-03,NVDA,211.0,211.0,Nvidia,Information Technology,nvidia,https://app.outboundsales.io/api/logo/nvidia.com
+322,647440,2023-02-03,NVR,5281.33984375,5281.33984375,NVR,Consumer Discretionary,nvr,https://app.outboundsales.io/api/logo/nvr.com
+323,649477,2023-02-03,NWL,16.1200008392334,16.1200008392334,Newell Brands,Consumer Discretionary,newell,https://app.outboundsales.io/api/logo/newell.com
+324,651514,2023-02-03,NWS,21.399999618530277,21.399999618530277,News Corp (Class B),Communication Services,news,https://app.outboundsales.io/api/logo/news.com
+325,653551,2023-02-03,NWSA,21.170000076293945,21.170000076293945,News Corp (Class A),Communication Services,news,https://app.outboundsales.io/api/logo/news.com
+326,655588,2023-02-03,NXPI,190.9499969482422,190.9499969482422,NXP,Information Technology,nxp,https://app.outboundsales.io/api/logo/nxp.com
+327,657625,2023-02-03,O,67.58999633789062,67.58999633789062,Realty Income Corporation,Real Estate,realty,https://app.outboundsales.io/api/logo/realty.com
+328,659662,2023-02-03,ODFL,371.010009765625,371.010009765625,Old Dominion Freight Line,Industrials,old,https://app.outboundsales.io/api/logo/old.com
+329,660097,2023-02-03,OGN,29.76000022888184,29.76000022888184,Organon & Co.,Health Care,organon,https://app.outboundsales.io/api/logo/organon.com
+330,662134,2023-02-03,OKE,68.55999755859375,68.55999755859375,Oneok,Energy,oneok,https://app.outboundsales.io/api/logo/oneok.com
+331,664171,2023-02-03,OMC,91.70999908447266,91.70999908447266,Omnicom Group,Communication Services,omnicom,https://app.outboundsales.io/api/logo/omnicom.com
+332,666208,2023-02-03,ORCL,89.62000274658203,89.62000274658203,Oracle,Information Technology,oracle,https://app.outboundsales.io/api/logo/oracle.com
+333,668245,2023-02-03,ORLY,794.8400268554688,794.8400268554688,O'Reilly Automotive,Consumer Discretionary,o'reilly,https://app.outboundsales.io/api/logo/o.com
+334,668971,2023-02-03,OTIS,84.7300033569336,84.7300033569336,Otis Worldwide,Industrials,otis,https://app.outboundsales.io/api/logo/otis.com
+335,671008,2023-02-03,OXY,61.2400016784668,61.2400016784668,Occidental Petroleum,Energy,occidental,https://app.outboundsales.io/api/logo/occidental.com
+336,673045,2023-02-03,PAYC,337.44000244140625,337.44000244140625,Paycom,Information Technology,paycom,https://app.outboundsales.io/api/logo/paycom.com
+337,675082,2023-02-03,PAYX,118.58000183105467,118.58000183105467,Paychex,Information Technology,paychex,https://app.outboundsales.io/api/logo/paychex.com
+338,677119,2023-02-03,PCAR,110.18000030517578,110.18000030517578,Paccar,Industrials,paccar,https://app.outboundsales.io/api/logo/paccar.com
+339,679156,2023-02-03,PEAK,27.6299991607666,27.6299991607666,Healthpeak Properties,Real Estate,healthpeak,https://app.outboundsales.io/api/logo/healthpeak.com
+340,681193,2023-02-03,PEG,60.84999847412109,60.84999847412109,Public Service Enterprise Group,Utilities,public,https://app.outboundsales.io/api/logo/public.com
+341,683230,2023-02-03,PEP,169.1199951171875,169.1199951171875,PepsiCo,Consumer Staples,pepsico,https://app.outboundsales.io/api/logo/pepsico.com
+342,685267,2023-02-03,PFE,44.060001373291016,44.060001373291016,Pfizer,Health Care,pfizer,https://app.outboundsales.io/api/logo/pfizer.com
+343,687304,2023-02-03,PFG,92.30999755859376,92.30999755859376,Principal Financial Group,Financials,principal,https://app.outboundsales.io/api/logo/principal.com
+344,689341,2023-02-03,PG,142.61000061035156,142.61000061035156,Procter & Gamble,Consumer Staples,procter,https://app.outboundsales.io/api/logo/procter.com
+345,691378,2023-02-03,PGR,136.30999755859375,136.30999755859375,Progressive Corporation,Financials,progressive,https://app.outboundsales.io/api/logo/progressive.com
+346,693415,2023-02-03,PH,350.0,350.0,Parker-Hannifin,Industrials,parker-hannifin,https://app.outboundsales.io/api/logo/parker.com
+347,695452,2023-02-03,PHM,58.79999923706055,58.79999923706055,PulteGroup,Consumer Discretionary,pultegroup,https://app.outboundsales.io/api/logo/pultegroup.com
+348,697489,2023-02-03,PKG,144.4199981689453,144.4199981689453,Packaging Corporation of America,Materials,packaging,https://app.outboundsales.io/api/logo/packaging.com
+349,699526,2023-02-03,PKI,141.75,141.75,PerkinElmer,Health Care,perkinelmer,https://app.outboundsales.io/api/logo/perkinelmer.com
+350,701563,2023-02-03,PLD,131.6199951171875,131.6199951171875,Prologis,Real Estate,prologis,https://app.outboundsales.io/api/logo/prologis.com
+351,703600,2023-02-03,PM,102.58999633789062,102.58999633789062,Philip Morris International,Consumer Staples,philip,https://app.outboundsales.io/api/logo/philip.com
+352,705637,2023-02-03,PNC,165.38999938964844,165.38999938964844,PNC Financial Services,Financials,pnc,https://app.outboundsales.io/api/logo/pnc.com
+353,707674,2023-02-03,PNR,59.369998931884766,59.369998931884766,Pentair,Industrials,pentair,https://app.outboundsales.io/api/logo/pentair.com
+354,709711,2023-02-03,PNW,75.87999725341797,75.87999725341797,Pinnacle West Capital,Utilities,pinnacle,https://app.outboundsales.io/api/logo/pinnacle.com
+355,711748,2023-02-03,POOL,403.5700073242188,403.5700073242188,Pool Corporation,Consumer Discretionary,pool,https://app.outboundsales.io/api/logo/pool.com
+356,713785,2023-02-03,PPG,130.72999572753906,130.72999572753906,PPG Industries,Materials,ppg,https://app.outboundsales.io/api/logo/ppg.com
+357,715822,2023-02-03,PPL,28.65999984741211,28.65999984741211,PPL,Utilities,ppl,https://app.outboundsales.io/api/logo/ppl.com
+358,717859,2023-02-03,PRU,101.86000061035156,101.86000061035156,Prudential Financial,Financials,prudential,https://app.outboundsales.io/api/logo/prudential.com
+359,719896,2023-02-03,PSA,308.4700012207031,308.4700012207031,Public Storage,Real Estate,public,https://app.outboundsales.io/api/logo/public.com
+360,721933,2023-02-03,PSX,98.80999755859376,98.80999755859376,Phillips 66,Energy,phillips,https://app.outboundsales.io/api/logo/phillips.com
+361,723970,2023-02-03,PTC,130.5500030517578,130.5500030517578,PTC,Information Technology,ptc,https://app.outboundsales.io/api/logo/ptc.com
+362,726007,2023-02-03,PWR,152.42999267578125,152.42999267578125,Quanta Services,Industrials,quanta,https://app.outboundsales.io/api/logo/quanta.com
+363,728044,2023-02-03,PXD,220.0,220.0,Pioneer Natural Resources,Energy,pioneer,https://app.outboundsales.io/api/logo/pioneer.com
+364,729955,2023-02-03,PYPL,85.5199966430664,85.5199966430664,PayPal,Information Technology,paypal,https://app.outboundsales.io/api/logo/paypal.com
+365,731992,2023-02-03,QCOM,135.02000427246094,135.02000427246094,Qualcomm,Information Technology,qualcomm,https://app.outboundsales.io/api/logo/qualcomm.com
+366,734029,2023-02-03,QRVO,106.87999725341795,106.87999725341795,Qorvo,Information Technology,qorvo,https://app.outboundsales.io/api/logo/qorvo.com
+367,736066,2023-02-03,RCL,68.44000244140625,68.44000244140625,Royal Caribbean Group,Consumer Discretionary,royal,https://app.outboundsales.io/api/logo/royal.com
+368,738103,2023-02-03,RE,342.3900146484375,342.3900146484375,Everest Re,Financials,everest,https://app.outboundsales.io/api/logo/everest.com
+369,740140,2023-02-03,REG,66.80999755859375,66.80999755859375,Regency Centers,Real Estate,regency,https://app.outboundsales.io/api/logo/regency.com
+370,742177,2023-02-03,REGN,783.1300048828125,783.1300048828125,Regeneron Pharmaceuticals,Health Care,regeneron,https://app.outboundsales.io/api/logo/regeneron.com
+371,744214,2023-02-03,RF,24.0,24.0,Regions Financial Corporation,Financials,regions,https://app.outboundsales.io/api/logo/regions.com
+372,746251,2023-02-03,RHI,87.05999755859375,87.05999755859375,Robert Half International,Industrials,robert,https://app.outboundsales.io/api/logo/robert.com
+373,748288,2023-02-03,RJF,111.87000274658205,111.87000274658205,Raymond James Financial,Financials,raymond,https://app.outboundsales.io/api/logo/raymond.com
+374,750325,2023-02-03,RL,125.88999938964844,125.88999938964844,Ralph Lauren Corporation,Consumer Discretionary,ralph,https://app.outboundsales.io/api/logo/ralph.com
+375,752362,2023-02-03,RMD,224.6000061035156,224.6000061035156,ResMed,Health Care,resmed,https://app.outboundsales.io/api/logo/resmed.com
+376,754399,2023-02-03,ROK,289.9599914550781,289.9599914550781,Rockwell Automation,Industrials,rockwell,https://app.outboundsales.io/api/logo/rockwell.com
+377,756436,2023-02-03,ROL,35.68000030517578,35.68000030517578,Rollins,Industrials,rollins,https://app.outboundsales.io/api/logo/rollins.com
+378,758473,2023-02-03,ROP,430.3399963378906,430.3399963378906,Roper Technologies,Industrials,roper,https://app.outboundsales.io/api/logo/roper.com
+379,760510,2023-02-03,ROST,115.31999969482422,115.31999969482422,Ross Stores,Consumer Discretionary,ross,https://app.outboundsales.io/api/logo/ross.com
+380,762547,2023-02-03,RSG,123.08000183105467,123.08000183105467,Republic Services,Industrials,republic,https://app.outboundsales.io/api/logo/republic.com
+381,764584,2023-02-03,RTX,96.4800033569336,96.4800033569336,Raytheon Technologies,Industrials,raytheon,https://app.outboundsales.io/api/logo/raytheon.com
+382,766621,2023-02-03,SBAC,297.7699890136719,297.7699890136719,SBA Communications,Real Estate,sba,https://app.outboundsales.io/api/logo/sba.com
+383,768658,2023-02-03,SBUX,104.3000030517578,104.3000030517578,Starbucks,Consumer Discretionary,starbucks,https://app.outboundsales.io/api/logo/starbucks.com
+384,770695,2023-02-03,SCHW,79.0199966430664,79.0199966430664,Charles Schwab Corporation,Financials,charles,https://app.outboundsales.io/api/logo/charles.com
+385,772732,2023-02-03,SEE,55.02000045776367,55.02000045776367,Sealed Air,Materials,sealed,https://app.outboundsales.io/api/logo/sealed.com
+386,774769,2023-02-03,SHW,241.72999572753903,241.72999572753903,Sherwin-Williams,Materials,sherwin-williams,https://app.outboundsales.io/api/logo/sherwin.com
+387,776806,2023-02-03,SIVB,323.2099914550781,323.2099914550781,SVB Financial,Financials,svb,https://app.outboundsales.io/api/logo/svb.com
+388,778843,2023-02-03,SJM,149.97000122070312,149.97000122070312,JM Smucker,Consumer Staples,jm,https://app.outboundsales.io/api/logo/jm.com
+389,780880,2023-02-03,SLB,52.63999938964844,52.63999938964844,Schlumberger,Energy,schlumberger,https://app.outboundsales.io/api/logo/schlumberger.com
+390,782917,2023-02-03,SNA,259.6600036621094,259.6600036621094,Snap-on,Industrials,snap-on,https://app.outboundsales.io/api/logo/snap.com
+391,784954,2023-02-03,SNPS,361.4400024414063,361.4400024414063,Synopsys,Information Technology,synopsys,https://app.outboundsales.io/api/logo/synopsys.com
+392,786991,2023-02-03,SO,67.2699966430664,67.2699966430664,Southern Company,Utilities,southern,https://app.outboundsales.io/api/logo/southern.com
+393,789028,2023-02-03,SPG,129.80999755859375,129.80999755859375,Simon Property Group,Real Estate,simon,https://app.outboundsales.io/api/logo/simon.com
+394,791065,2023-02-03,SPGI,372.9100036621094,372.9100036621094,S&P Global,Financials,s&p,https://app.outboundsales.io/api/logo/s.com
+395,793102,2023-02-03,SRE,155.89999389648438,155.89999389648438,Sempra Energy,Utilities,sempra,https://app.outboundsales.io/api/logo/sempra.com
+396,795139,2023-02-03,STE,219.02999877929688,219.02999877929688,Steris,Health Care,steris,https://app.outboundsales.io/api/logo/steris.com
+397,797176,2023-02-03,STT,91.08000183105467,91.08000183105467,State Street Corporation,Financials,state,https://app.outboundsales.io/api/logo/state.com
+398,799213,2023-02-03,STX,70.88999938964844,70.88999938964844,Seagate Technology,Information Technology,seagate,https://app.outboundsales.io/api/logo/seagate.com
+399,801250,2023-02-03,STZ,230.82000732421875,230.82000732421875,Constellation Brands,Consumer Staples,constellation,https://app.outboundsales.io/api/logo/constellation.com
+400,803287,2023-02-03,SWK,93.81999969482422,93.81999969482422,Stanley Black & Decker,Industrials,stanley,https://app.outboundsales.io/api/logo/stanley.com
+401,805324,2023-02-03,SWKS,112.4800033569336,112.4800033569336,Skyworks Solutions,Information Technology,skyworks,https://app.outboundsales.io/api/logo/skyworks.com
+402,807361,2023-02-03,SYF,37.04999923706055,37.04999923706055,Synchrony Financial,Financials,synchrony,https://app.outboundsales.io/api/logo/synchrony.com
+403,809398,2023-02-03,SYK,283.1400146484375,283.1400146484375,Stryker Corporation,Health Care,stryker,https://app.outboundsales.io/api/logo/stryker.com
+404,811435,2023-02-03,SYY,76.72000122070312,76.72000122070312,Sysco,Consumer Staples,sysco,https://app.outboundsales.io/api/logo/sysco.com
+405,813472,2023-02-03,T,19.82999992370605,19.82999992370605,AT&T,Communication Services,at&t,https://app.outboundsales.io/api/logo/at.com
+406,815509,2023-02-03,TAP,53.619998931884766,53.619998931884766,Molson Coors Beverage Company,Consumer Staples,molson,https://app.outboundsales.io/api/logo/molson.com
+407,817546,2023-02-03,TDG,713.5,713.5,TransDigm Group,Industrials,transdigm,https://app.outboundsales.io/api/logo/transdigm.com
+408,819583,2023-02-03,TDY,433.5799865722656,433.5799865722656,Teledyne Technologies,Industrials,teledyne,https://app.outboundsales.io/api/logo/teledyne.com
+409,821620,2023-02-03,TECH,79.16000366210938,79.16000366210938,Bio-Techne,Health Care,bio-techne,https://app.outboundsales.io/api/logo/bio.com
+410,823657,2023-02-03,TEL,133.88999938964844,133.88999938964844,TE Connectivity,Information Technology,te,https://app.outboundsales.io/api/logo/te.com
+411,825694,2023-02-03,TER,107.98999786376952,107.98999786376952,Teradyne,Information Technology,teradyne,https://app.outboundsales.io/api/logo/teradyne.com
+412,827731,2023-02-03,TFC,50.09000015258789,50.09000015258789,Truist Financial,Financials,truist,https://app.outboundsales.io/api/logo/truist.com
+413,829768,2023-02-03,TFX,258.4700012207031,258.4700012207031,Teleflex,Health Care,teleflex,https://app.outboundsales.io/api/logo/teleflex.com
+414,831805,2023-02-03,TGT,176.75999450683594,176.75999450683594,Target Corporation,Consumer Discretionary,target,https://app.outboundsales.io/api/logo/target.com
+415,833842,2023-02-03,TJX,80.5199966430664,80.5199966430664,TJX Companies,Consumer Discretionary,tjx,https://app.outboundsales.io/api/logo/tjx.com
+416,835879,2023-02-03,TMO,587.760009765625,587.760009765625,Thermo Fisher Scientific,Health Care,thermo,https://app.outboundsales.io/api/logo/thermo.com
+417,837916,2023-02-03,TMUS,145.19000244140625,145.19000244140625,T-Mobile US,Communication Services,t-mobile,https://app.outboundsales.io/api/logo/t.com
+418,839953,2023-02-03,TPR,46.11000061035156,46.11000061035156,Tapestry,Consumer Discretionary,tapestry,https://app.outboundsales.io/api/logo/tapestry.com
+419,841990,2023-02-03,TRMB,60.29999923706055,60.29999923706055,Trimble,Information Technology,trimble,https://app.outboundsales.io/api/logo/trimble.com
+420,844027,2023-02-03,TROW,125.81999969482422,125.81999969482422,T. Rowe Price,Financials,t.,https://app.outboundsales.io/api/logo/t.com
+421,846064,2023-02-03,TRV,182.75999450683597,182.75999450683597,The Travelers Companies,Financials,the,https://app.outboundsales.io/api/logo/the.com
+422,848101,2023-02-03,TSCO,228.55999755859372,228.55999755859372,Tractor Supply Company,Consumer Discretionary,tractor,https://app.outboundsales.io/api/logo/tractor.com
+423,850138,2023-02-03,TSLA,189.97999572753903,189.97999572753903,Tesla,Consumer Discretionary,tesla,https://app.outboundsales.io/api/logo/tesla.com
+424,852175,2023-02-03,TSN,64.02999877929688,64.02999877929688,Tyson Foods,Consumer Staples,tyson,https://app.outboundsales.io/api/logo/tyson.com
+425,854212,2023-02-03,TT,186.3000030517578,186.3000030517578,Trane Technologies,Industrials,trane,https://app.outboundsales.io/api/logo/trane.com
+426,856249,2023-02-03,TTWO,109.27999877929688,109.27999877929688,Take-Two Interactive,Communication Services,take-two,https://app.outboundsales.io/api/logo/take.com
+427,858286,2023-02-03,TXN,182.2899932861328,182.2899932861328,Texas Instruments,Information Technology,texas,https://app.outboundsales.io/api/logo/texas.com
+428,860323,2023-02-03,TXT,74.44000244140625,74.44000244140625,Textron,Industrials,textron,https://app.outboundsales.io/api/logo/textron.com
+429,862360,2023-02-03,TYL,332.57000732421875,332.57000732421875,Tyler Technologies,Information Technology,tyler,https://app.outboundsales.io/api/logo/tyler.com
+430,864397,2023-02-03,UAL,51.119998931884766,51.119998931884766,United Airlines,Industrials,united,https://app.outboundsales.io/api/logo/united.com
+431,866434,2023-02-03,UDR,43.380001068115234,43.380001068115234,UDR,Real Estate,udr,https://app.outboundsales.io/api/logo/udr.com
+432,868471,2023-02-03,UHS,148.41000366210938,148.41000366210938,Universal Health Services,Health Care,universal,https://app.outboundsales.io/api/logo/universal.com
+433,870508,2023-02-03,ULTA,520.760009765625,520.760009765625,Ulta Beauty,Consumer Discretionary,ulta,https://app.outboundsales.io/api/logo/ulta.com
+434,872545,2023-02-03,UNH,472.0199890136719,472.0199890136719,UnitedHealth Group,Health Care,unitedhealth,https://app.outboundsales.io/api/logo/unitedhealth.com
+435,874582,2023-02-03,UNP,210.2899932861328,210.2899932861328,Union Pacific,Industrials,union,https://app.outboundsales.io/api/logo/union.com
+436,876619,2023-02-03,UPS,191.66000366210935,191.66000366210935,United Parcel Service,Industrials,united,https://app.outboundsales.io/api/logo/united.com
+437,878656,2023-02-03,URI,455.0700073242188,455.0700073242188,United Rentals,Industrials,united,https://app.outboundsales.io/api/logo/united.com
+438,880693,2023-02-03,USB,49.29999923706055,49.29999923706055,U.S. Bancorp,Financials,u.s.,https://app.outboundsales.io/api/logo/u.com
+439,882730,2023-02-03,V,230.1300048828125,230.1300048828125,Visa,Information Technology,visa,https://app.outboundsales.io/api/logo/visa.com
+440,884767,2023-02-03,VFC,30.6200008392334,30.6200008392334,VF Corporation,Consumer Discretionary,vf,https://app.outboundsales.io/api/logo/vf.com
+441,886804,2023-02-03,VLO,131.72999572753906,131.72999572753906,Valero Energy,Energy,valero,https://app.outboundsales.io/api/logo/valero.com
+442,888841,2023-02-03,VMC,183.5200042724609,183.5200042724609,Vulcan Materials,Materials,vulcan,https://app.outboundsales.io/api/logo/vulcan.com
+443,890878,2023-02-03,VRSK,180.11000061035156,180.11000061035156,Verisk Analytics,Industrials,verisk,https://app.outboundsales.io/api/logo/verisk.com
+444,892915,2023-02-03,VRSN,217.72999572753903,217.72999572753903,Verisign,Information Technology,verisign,https://app.outboundsales.io/api/logo/verisign.com
+445,894952,2023-02-03,VRTX,301.0199890136719,301.0199890136719,Vertex Pharmaceuticals,Health Care,vertex,https://app.outboundsales.io/api/logo/vertex.com
+446,896989,2023-02-03,VTR,52.59999847412109,52.59999847412109,Ventas,Real Estate,ventas,https://app.outboundsales.io/api/logo/ventas.com
+447,899026,2023-02-03,VTRS,12.18000030517578,12.18000030517578,Viatris,Health Care,viatris,https://app.outboundsales.io/api/logo/viatris.com
+448,901063,2023-02-03,VZ,41.5099983215332,41.5099983215332,Verizon Communications,Communication Services,verizon,https://app.outboundsales.io/api/logo/verizon.com
+449,903100,2023-02-03,WAB,105.52999877929688,105.52999877929688,Wabtec,Industrials,wabtec,https://app.outboundsales.io/api/logo/wabtec.com
+450,905137,2023-02-03,WAT,341.3900146484375,341.3900146484375,Waters Corporation,Health Care,waters,https://app.outboundsales.io/api/logo/waters.com
+451,907174,2023-02-03,WBA,37.09000015258789,37.09000015258789,Walgreens Boots Alliance,Consumer Staples,walgreens,https://app.outboundsales.io/api/logo/walgreens.com
+452,909211,2023-02-03,WDC,43.25,43.25,Western Digital,Information Technology,western,https://app.outboundsales.io/api/logo/western.com
+453,911248,2023-02-03,WEC,93.55999755859376,93.55999755859376,WEC Energy Group,Utilities,wec,https://app.outboundsales.io/api/logo/wec.com
+454,913285,2023-02-03,WELL,75.81999969482422,75.81999969482422,Welltower,Real Estate,welltower,https://app.outboundsales.io/api/logo/welltower.com
+455,915322,2023-02-03,WFC,47.58000183105469,47.58000183105469,Wells Fargo,Financials,wells,https://app.outboundsales.io/api/logo/wells.com
+456,917359,2023-02-03,WHR,154.97000122070312,154.97000122070312,Whirlpool Corporation,Consumer Discretionary,whirlpool,https://app.outboundsales.io/api/logo/whirlpool.com
+457,919396,2023-02-03,WM,151.05999755859375,151.05999755859375,Waste Management,Industrials,waste,https://app.outboundsales.io/api/logo/waste.com
+458,921433,2023-02-03,WMB,32.08000183105469,32.08000183105469,Williams Companies,Energy,williams,https://app.outboundsales.io/api/logo/williams.com
+459,923470,2023-02-03,WMT,141.7100067138672,141.7100067138672,Walmart,Consumer Staples,walmart,https://app.outboundsales.io/api/logo/walmart.com
+460,925507,2023-02-03,WRB,66.87000274658203,66.87000274658203,W. R. Berkley Corporation,Financials,w.,https://app.outboundsales.io/api/logo/w.com
+461,927425,2023-02-03,WRK,34.88999938964844,34.88999938964844,WestRock,Materials,westrock,https://app.outboundsales.io/api/logo/westrock.com
+462,929462,2023-02-03,WST,272.8800048828125,272.8800048828125,West Pharmaceutical Services,Health Care,west,https://app.outboundsales.io/api/logo/west.com
+463,931499,2023-02-03,WY,35.27000045776367,35.27000045776367,Weyerhaeuser,Real Estate,weyerhaeuser,https://app.outboundsales.io/api/logo/weyerhaeuser.com
+464,933536,2023-02-03,WYNN,102.95999908447266,102.95999908447266,Wynn Resorts,Consumer Discretionary,wynn,https://app.outboundsales.io/api/logo/wynn.com
+465,935573,2023-02-03,XEL,67.9800033569336,67.9800033569336,Xcel Energy,Utilities,xcel,https://app.outboundsales.io/api/logo/xcel.com
+466,937610,2023-02-03,XOM,111.91999816894533,111.91999816894533,ExxonMobil,Energy,exxonmobil,https://app.outboundsales.io/api/logo/exxonmobil.com
+467,939647,2023-02-03,XRAY,38.43999862670898,38.43999862670898,Dentsply Sirona,Health Care,dentsply,https://app.outboundsales.io/api/logo/dentsply.com
+468,941684,2023-02-03,XYL,105.25,105.25,Xylem,Industrials,xylem,https://app.outboundsales.io/api/logo/xylem.com
+469,943721,2023-02-03,YUM,127.01000213623048,127.01000213623048,Yum! Brands,Consumer Discretionary,yum!,https://app.outboundsales.io/api/logo/yum.com
+470,945758,2023-02-03,ZBH,129.4499969482422,129.4499969482422,Zimmer Biomet,Health Care,zimmer,https://app.outboundsales.io/api/logo/zimmer.com
+471,947795,2023-02-03,ZBRA,330.8099975585937,330.8099975585937,Zebra Technologies,Information Technology,zebra,https://app.outboundsales.io/api/logo/zebra.com
+472,949832,2023-02-03,ZION,54.40999984741211,54.40999984741211,Zions Bancorp,Financials,zions,https://app.outboundsales.io/api/logo/zions.com
+473,951869,2023-02-03,ZTS,167.8000030517578,167.8000030517578,Zoetis,Health Care,zoetis,https://app.outboundsales.io/api/logo/zoetis.com
