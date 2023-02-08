@@ -33,6 +33,7 @@ def us_map(df=df_states):
             reversescale = True,
             autocolorscale = False,
             symbol = 'circle',
+            color ='#00BFFF',
             line = dict(
                 width=1,
                 color='rgba(102, 102, 102)'
@@ -62,7 +63,7 @@ def stocks_line(df=df_stocks):
 layout  =  html.Div([
             dbc.Row(children = [
                     html.H1(
-                     children = ['S&P 500 Stock Market Overview'], style={'textAlign':'center', "padding": "2rem 1rem", 'color':'#8B1A1A'}
+                     children = ['S&P 500 Stock Market Overview'], style={'textAlign':'center', "padding": "2rem 1rem", 'color':'#00BFFF'}
                      ), ]),
             dbc.Row(children = [
                     html.H2(

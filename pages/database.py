@@ -50,7 +50,7 @@ dash.register_page(__name__, path='/database')
 layout = html.Div([
             dbc.Row(children = [
                     html.H1(
-                     children = ['Database'], style={'textAlign':'center', "padding": "2rem 1rem", 'color':'#8B1A1A'}
+                     children = ['Company Database'], style={'textAlign':'center', "padding": "2rem 1rem", 'color':'#00BFFF'}
                      ), ]),
             dbc.Row([
                 dbc.Col([

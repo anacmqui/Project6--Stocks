@@ -99,17 +99,17 @@ dash.register_page(__name__, path='/login')
 layout = html.Div([
             dbc.Row(children = [
                     html.H1(
-                     children = ['Build your portfolio'], style={'textAlign':'center', "padding": "2rem 1rem", 'color':'#104E8B', 'font-weight': 'bold'}
+                     children = ['Build your portfolio'], style={'textAlign':'center', "padding": "2rem 1rem", 'color':'#00BFFF', 'font-weight': 'bold'}
                      ), ]),
             dbc.Row(children = [
-                    html.H3(
-                     children = ['Step 1 - Check the stock price today'], style={'textAlign':'left', "padding": "2rem 1rem", 'color':'#104E8B'}
+                    html.H4(
+                     children = ['Step 1 - Check the stock price today'], style={'textAlign':'left', "padding": "2rem 1rem"}
                      ), ]),
             dbc.Row([
                 dbc.Col([
                     dbc.Label("Select a company", html_for="example-stock"),
                     dcc.Dropdown(options = dropdown_stock, value=[1], id = 'stocks-dropdown', placeholder = 'Press/type here',
-                                    style={'color':'#104E8B'}),
+                                ),
                     ], width=3),
                     ]),
             dbc.Row([dbc.Label(" "),
@@ -128,8 +128,8 @@ layout = html.Div([
                         html.Hr(),
                     ]),
             dbc.Row(children = [
-                    html.H3(
-                     children = ['Step 2 - Buy/sell the stock'], style={'textAlign':'left', "padding": "2rem 1rem", 'color':'#104E8B'}
+                    html.H4(
+                     children = ['Step 2 - Buy/sell the stock'], style={'textAlign':'left', "padding": "2rem 1rem"}
                      ), ]),
             dbc.Row([
                 dbc.Col([dbc.Button("Add to portfolio",
