@@ -63,7 +63,7 @@ def sectors_line(df=df_sectors):
     return px.line(df, x='Date', y="Close", color='Sector')
 
 def stocks_line(df=df_stocks):
-    return px.line(df, x='Date', y="Close", color='Name')
+    return px.line(df, x='Date', y="Close", color='Name', hover_data=['Sector'])
 
 layout  =  html.Div([
             dbc.Row(children = [
@@ -158,7 +158,7 @@ def update_sector_graph(sector):
 def update_stock_graph(stock, start_date, end_date):
     start_date = datetime.strptime(start_date, '%Y-%m-%d')
     end_date = datetime.strptime(end_date, "%Y-%m-%d")
-    print(type(start_date))
+    #print(type(start_date))
     dff = df_stocks.copy()
     dff = dff[(dff['Name'].isin(stock)) & (dff['Date']>start_date) & (dff['Date']< end_date)]
     #dff = dff.loc[start_date:end_date]
